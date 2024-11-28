@@ -8,6 +8,11 @@
             {"text":"Raspb3rryio", "color":"green"}
         ]
     },
+    "supported_formats":
+    {
+      "min_inclusive": 57,
+      "max_inclusive": 999
+    },
     "overlays":
     {
         "entries":
