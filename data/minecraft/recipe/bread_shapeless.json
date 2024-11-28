@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "custom",
+	"ingredients":
+	[
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"minecraft:wheat"
+	],
+	"result":
+	{
+		"id": "minecraft:bread",
+		"count": 1
+	}
+}

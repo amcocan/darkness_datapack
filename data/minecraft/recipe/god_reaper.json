@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "custom",
+    "ingredients":
+    [
+        "minecraft:armor_stand",
+        "minecraft:written_book",
+        "minecraft:shears"
+    ],
+    "result":
+    {
+        "id": "minecraft:shears",
+        "count": 1,
+        "components":
+        {
+            "minecraft:unbreakable":
+            {
+                "show_in_tooltip": false
+            },
+            "minecraft:item_name": "{\"text\":\"God Reaper\", \"color\":\"light_purple\", \"italic\":false}",
+            "minecraft:lore":
+            [
+                "{\"text\":\"Made to collect shadows.\", \"color\":\"green\", \"italic\":false}"
+            ],
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_model_data": 1,
+            "minecraft:rarity": "epic",
+            "minecraft:damage": 0
+        }
+    }
+}

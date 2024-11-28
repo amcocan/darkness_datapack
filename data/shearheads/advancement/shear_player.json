@@ -1,0 +1,40 @@
+{
+    "criteria":
+    {
+        "requirement":
+        {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions":
+            {
+                "damage":
+                {
+                    "source_entity":
+                    {
+                        "type": "minecraft:player",
+                        "equipment":
+                        {
+                            "mainhand":
+                            {
+                                "items": "minecraft:shears",
+                                "count": 1,
+                                "components":
+                                {
+                                    "minecraft:custom_model_data": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "entity":
+                {
+                    "type": "minecraft:player"
+                }
+            }
+        }
+    },
+    "rewards":
+    {
+        "function": "shearheads:on_shear"
+    },
+    "sends_telemetry_event": false
+}

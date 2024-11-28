@@ -1,0 +1,22 @@
+{
+    "pack":
+    {
+        "pack_format": 57,
+        "description":
+        [
+            {"text":"A QoL datapack. ","color":"light_purple"},
+            {"text":"Raspb3rryio", "color":"green"}
+        ]
+    },
+    "overlays":
+    {
+        "entries":
+        [
+            {
+                "directory": "shearheads",
+                "directory": "playerseats",
+                "directory": "packauthor"
+            }
+        ]
+    }
+}

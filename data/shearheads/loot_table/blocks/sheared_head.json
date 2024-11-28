@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:block",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [{
+                "type": "minecraft:loot_table",
+                "value": "minecraft:blocks/player_head",
+                "functions":
+                [
+                    {
+                        "function": "minecraft:copy_custom_data",
+                        "source": "this",
+                        "ops": []
+                    },
+                    {
+                        "function": "minecraft:fill_player_head",
+                        "entity": "this"
+                    }
+                ]
+            }]
+        }
+    ]
+}
