@@ -3,16 +3,17 @@
 </p>
 
 <h1 align="center">Darkness Datapack</h1>
+
 This is a QoL (quality of life) datapack built for versions `1.21.3` and later of Minecraft Java Edition (MJE). Below are some of the features that this datapack includes and some documentation on how they work.
 
 ## custom recipes
-The custom recipes are pretty self explanitory from just the names, so I will just list them out below. Note that this will include recipes that were designed for custom features later explained.
+The custom recipes are pretty self explanitory from just the names (_they follow the default MJE naming convention_), so I will just list them out below. Note that this will include recipes that were designed for custom features later explained.
 - `minecraft/recipe/bread_shapeless.json`
 - `minecraft/recipe/charcoal_from_blasting_rotten_flesh.json`
 - `minecraft/recipe/dry_leather_from_campfire_cooking.json`
 - `minecraft/recipe/dry_leather_from_smoking.json`
 - `minecraft/recipe/dry_leather.json`
-- `minecraft/recipe/god_reaper.json` ~ *Can learn more in the section: shearheads*
+- `minecraft/recipe/god_reaper.json` ~ _Can learn more in the section:_ [shearheads](#shearheads)
 - `minecraft/recipe/paper_shapeless.json`
 - `minecraft/recipe/shulker_box_with_barrel_shapeless.json`
 - `minecraft/recipe/shulker_box_with_chest_shapeless.json`
