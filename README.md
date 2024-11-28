@@ -20,7 +20,7 @@ The custom recipes are pretty self explanitory from just the names (_they follow
 - `minecraft/recipe/shulker_box_with_chest_shapeless.json`
 
 ## packauthor
-This is suposed to use the `tellraw` command to provide information on the datapack (author and load status) everytime the datapack is reloaded. This feature is curently bugged and does not work as intended.
+This is should use the `tellraw` command to provide information on the datapack (author and load status) everytime the datapack is reloaded. This feature is curently bugged and does not work as intended.
 
 ## playerseats
 I will explain this feature when I successfully add it into the datapack.
