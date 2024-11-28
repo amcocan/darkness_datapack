@@ -3,9 +3,9 @@
 </p>
 
 <h1 align="center">Darkness Datapack</h1>
-This is a QoL (quality of life) datapack built for versions `1.21.3 +` of Minecraft Java Edition (MJE). Below are some of the features that this datapack includes and some documentation on how they work.
+This is a QoL (quality of life) datapack built for versions `1.21.3` and later of Minecraft Java Edition (MJE). Below are some of the features that this datapack includes and some documentation on how they work.
 
-### custom recipes
+## custom recipes
 The custom recipes are pretty self explanitory from just the names, so I will just list them out below. Note that this will include recipes that were designed for custom features later explained.
 - `minecraft/recipe/bread_shapeless.json`
 - `minecraft/recipe/charcoal_from_blasting_rotten_flesh.json`
@@ -17,13 +17,13 @@ The custom recipes are pretty self explanitory from just the names, so I will ju
 - `minecraft/recipe/shulker_box_with_barrel_shapeless.json`
 - `minecraft/recipe/shulker_box_with_chest_shapeless.json`
 
-### packauthor
+## packauthor
 This is suposed to use the `tellraw` command to provide information on the datapack (author and load status) everytime the datapack is reloaded. This feature is curently bugged and does not work as intended.
 
-### playerseats
+## playerseats
 I will explain this feature when I successfully add it into the datapack.
 
-### shearheads
+## shearheads
 This feature adds the ability to collect a `minecraft:blocks/player_head` without having to kill the player in MJE. Eventualy this feature will extend to other mobs/entities as well, but in the meantime it remains for players only.
 > The items `minecraft:blocks/player_head` will not carry special properties that extend beyond the purpose of decorations. For example, collecting a wither skelleton head (in the future) will not give you a `minecraft:blocks/wither_skeleton_skull`.
 
