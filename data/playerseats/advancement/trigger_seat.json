@@ -3,7 +3,7 @@
     {
         "create_seat":
         {
-            "trigger": "minecraft:tick",
+            "trigger": "minecraft:location",
             "conditions":
             {
                 "player":
