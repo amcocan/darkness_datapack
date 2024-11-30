@@ -1,5 +1,5 @@
 # Setup team no_alerts to silence extra alerts from pack reload.
-team add no_alerts "no_alerts"
+team add no_alerts "Silence Alerts"
 
 # Add trigger for players to join the no_alerts team.
 scoreboard objectives add silence_alerts trigger "Silence Alerts"
