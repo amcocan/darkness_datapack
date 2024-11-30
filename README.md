@@ -19,11 +19,36 @@ The custom recipes are pretty self explanitory from just the names (_they follow
 - `minecraft/recipe/shulker_box_with_barrel_shapeless.json`
 - `minecraft/recipe/shulker_box_with_chest_shapeless.json`
 
+## antigrief
+I will explain this feature when I successfully add it into the datapack.
+<!-- Creepers / Endermen / Ghasts / Withers - Selective Griefing Removal -->
+
+## cleanup
+I will explain this feature when I successfully add it into the datapack.
+<!-- Bring all floor items within 10 block radius to player. -->
+
+## combatswitch
+I will explain this feature when I successfully add it into the datapack.
+<!-- A way to toggle pvp. -->
+
+## invframe
+I will explain this feature when I successfully add it into the datapack.
+<!-- Invisible / Invulnerable / Locking - Item Frames -->
+
+## invstand
+I will explain this feature when I successfully add it into the datapack.
+<!-- Invisible / Invulnerable / Locking - Armor Stands -->
+
 ## packauthor
 This is should use the `tellraw` command to provide information on the datapack (author and load status) everytime the datapack is reloaded. This feature is curently bugged and does not work as intended.
 
 ## playerseats
 I will explain this feature when I successfully add it into the datapack.
+<!-- Create and manage seating for players. -->
+
+## pocketshulker
+I will explain this feature when I successfully add it into the datapack.
+<!-- Opening shulkers in inventory. -->
 
 ## shearheads
 This feature adds the ability to collect a `minecraft:blocks/player_head` without having to kill the player in MJE. Eventualy this feature will extend to other mobs/entities as well, but in the meantime it remains for players only.
