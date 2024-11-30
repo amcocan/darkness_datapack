@@ -1,7 +1,7 @@
 {
     "criteria":
     {
-        "create_seat":
+        "requirement":
         {
             "trigger": "minecraft:tick",
             "conditions":
@@ -31,10 +31,6 @@
             }
         }
     },
-    "requirements":
-    [
-        "create_seat"
-    ],
     "rewards":
     {
         "function": "playerseats:create_seat"
