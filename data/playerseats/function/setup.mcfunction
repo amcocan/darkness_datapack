@@ -6,4 +6,4 @@ advancement revoke @a only playerseats:trigger_seatkill
 kill @e[tag=playerseats]
 
 # Alert everyone that datapack loaded successfully.
-tellraw @a {"text":"Playerseats function initialized successfully.", "color":"green", "italic":false}
+tellraw @a[team=!no_alerts] {"text":"Playerseats function initialized successfully.", "color":"green", "italic":false}
