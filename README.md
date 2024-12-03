@@ -31,6 +31,10 @@ I will explain this feature when I successfully add it into the datapack.
 I will explain this feature when I successfully add it into the datapack.
 <!-- A way to toggle pvp. -->
 
+## fastleafdecay
+I will explain this feature when I successfully add it into the datapack.
+<!-- Adds fast leaf decay for all trees. -->
+
 ## invframe
 I will explain this feature when I successfully add it into the datapack.
 <!-- Invisible / Invulnerable / Locking - Item Frames -->
