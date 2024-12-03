@@ -3,6 +3,7 @@
     [
         "packauthor:setup",
         "cleanup:setup",
+        "invframe:setup",
         "playerseats:setup",
         "shearheads:setup"
     ]

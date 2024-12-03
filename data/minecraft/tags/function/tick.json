@@ -2,6 +2,7 @@
     "values":
     [
         "cleanup:tick",
+        "invframe:tick",
         "packauthor:tick"
     ]
 }
