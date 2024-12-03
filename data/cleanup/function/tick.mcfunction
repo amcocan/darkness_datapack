@@ -2,7 +2,7 @@
 execute as @a[scores={clean_up=1..}] at @s run tp @e[type=minecraft:item, distance=..10] @s
 
 # Play a sound so that the player knows it ran.
-execute as @s at @a[scores={clean_up=1..}] playsound minecraft:entity.item.pickup player @a[distance=..30] ~ ~ ~
+execute as @s at @a[scores={clean_up=1..}] run playsound minecraft:entity.item.pickup player @a[distance=..30] ~ ~ ~
 
 # Reset adn enable the trigger.
 execute as @a[scores={clean_up=1..}] run scoreboard players reset @s clean_up
