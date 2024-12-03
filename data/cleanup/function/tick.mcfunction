@@ -1,0 +1,7 @@
+# Add the logic of the trigger command for the cleanup function.
+execute as @a[scores={clean_up=1..}] at @s run tp @e[type=minecraft:item, distance=..10] @s
+execute as @a[scores={clean_up=1..}] run scoreboard players reset @s clean_up
+scoreboard players enable @a clean_up
+
+# Play a sound so that the player knows it ran.
+playsound minecraft:entity.item.pickup player @a[distance=..30] ~ ~ ~
