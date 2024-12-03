@@ -1,8 +1,8 @@
 {
     "values":
     [
-        "cleanup:setup",
         "packauthor:setup",
+        "cleanup:setup",
         "playerseats:setup",
         "shearheads:setup"
     ]
