@@ -2,7 +2,7 @@
 execute as @a[scores={silence_alerts=1..}] at @s run team join no_alerts @s
 
 # Play a sound so that the player knows it ran.
-playsound minecraft:particle.soul_escape player @a[scores={silence_alerts=1..}, distance=..30] ~ ~ ~
+execute as @s at @a[scores={silence_alerts=1..}] playsound minecraft:particle.soul_escape player @a[scores={silence_alerts=1..}, distance=..30] ~ ~ ~
 
 # Reset and enable the trigger.
 execute as @a[scores={silence_alerts=1..}] run scoreboard players reset @s silence_alerts
