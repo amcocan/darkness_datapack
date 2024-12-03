@@ -33,7 +33,7 @@ scoreboard players enable @a find_frame
 
 # ======= Debug Frame =======
 # Show data of an invframe.
-execute at @a[scores={debug_frame=1..}] run data get entity @e[type=#invframe:invframe, distance=..1.5, limit=1, sort=nearest]
+execute as @a[scores={debug_frame=1..}, team=debug] run data get entity @e[type=#invframe:invframe, distance=..1.5, limit=1, sort=nearest]
 # Reset and enable the trigger.
 execute as @a[scores={debug_frame=1..}] run scoreboard players reset @s debug_frame
-scoreboard players enable @a debug_frame
+scoreboard players enable @a[team=debug] debug_frame
