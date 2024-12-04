@@ -31,9 +31,5 @@ execute as @a[scores={find_frame=1..}] at @e[tag=invisible_entity] run playsound
 execute as @a[scores={find_frame=1..}] run scoreboard players reset @s find_frame
 scoreboard players enable @a find_frame
 
-# ======= Debug Frame =======
-# Show data of an invframe.
-# execute as @a[scores={debug_frame=1..}, team=debug] run data get entity @e[type=#invframe:invframe, distance=..1.5, limit=1, sort=nearest]
-# Reset and enable the trigger.
-# execute as @a[scores={debug_frame=1..}] run scoreboard players reset @s debug_frame
-# scoreboard players enable @a[team=debug] debug_frame
+# ======= Invframe Loop =======
+schedule function invframe:loop 0.5s append

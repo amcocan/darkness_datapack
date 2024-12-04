@@ -4,6 +4,7 @@
         "packauthor:setup",
         "cleanup:setup",
         "invframe:setup",
+        "invframe:loop",
         "playerseats:setup",
         "shearheads:setup"
     ]
