@@ -6,3 +6,6 @@ execute at @a[scores={clean_up=1..}] run playsound minecraft:entity.item.pickup 
 # Reset adn enable the trigger.
 execute as @a[scores={clean_up=1..}] run scoreboard players reset @s clean_up
 scoreboard players enable @a clean_up
+
+# ======= Cleanup Loop =======
+schedule function cleanup:loop 0.25s append

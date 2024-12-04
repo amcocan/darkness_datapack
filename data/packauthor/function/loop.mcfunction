@@ -15,3 +15,6 @@ execute at @a[scores={enable_alerts=1..}] run playsound minecraft:block.note_blo
 # Reset and enable the trigger.
 execute as @a[scores={enable_alerts=1..}] run scoreboard players reset @s enable_alerts
 scoreboard players enable @a enable_alerts
+
+# ======= Silence Alerts Loop =======
+schedule function packauthor:loop 0.25s append

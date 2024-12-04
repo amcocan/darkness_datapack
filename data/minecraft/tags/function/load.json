@@ -2,7 +2,9 @@
     "values":
     [
         "packauthor:setup",
+        "packauthor:loop",
         "cleanup:setup",
+        "cleanup:loop",
         "invframe:setup",
         "invframe:loop",
         "playerseats:setup",
