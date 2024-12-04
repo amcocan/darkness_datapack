@@ -17,7 +17,7 @@ execute at @a[scores={show_frame=1..}] run data modify entity @e[type=#invframe:
 # Play a sound so that the player knows it ran.
 execute as @a[scores={show_frame=1..}] at @e[tag=invisible_entity] run playsound minecraft:entity.item.pickup block @a[distance=..16] ~ ~ ~ 5 1 0.5
 # Adds tag for easier manipulation of entities.
-execute as @a[scores={show_frame=1..}] run tag @e[nbt={Invisible: 1b}, limit=1, distance=..1.5] remove invisible_entity
+execute as @a[scores={show_frame=1..}] run tag @e[nbt={Invisible: 0b}, limit=1, distance=..1.5] remove invisible_entity
 # Reset and enable the trigger.
 execute as @a[scores={show_frame=1..}] run scoreboard players reset @s show_frame
 scoreboard players enable @a show_frame
@@ -33,7 +33,7 @@ scoreboard players enable @a find_frame
 
 # ======= Debug Frame =======
 # Show data of an invframe.
-execute as @a[scores={debug_frame=1..}, team=debug] run data get entity @e[type=#invframe:invframe, distance=..1.5, limit=1, sort=nearest]
+# execute as @a[scores={debug_frame=1..}, team=debug] run data get entity @e[type=#invframe:invframe, distance=..1.5, limit=1, sort=nearest]
 # Reset and enable the trigger.
-execute as @a[scores={debug_frame=1..}] run scoreboard players reset @s debug_frame
-scoreboard players enable @a[team=debug] debug_frame
+# execute as @a[scores={debug_frame=1..}] run scoreboard players reset @s debug_frame
+# scoreboard players enable @a[team=debug] debug_frame
