@@ -32,4 +32,4 @@ execute as @a[scores={find_frame=1..}] run scoreboard players reset @s find_fram
 scoreboard players enable @a find_frame
 
 # ======= Invframe Loop =======
-schedule function invframe:loop 0.5s append
+schedule function invframe:loop 0.25s append
