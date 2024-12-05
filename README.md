@@ -24,8 +24,7 @@ I will explain this feature when I successfully add it into the datapack.
 <!-- Creepers / Endermen / Ghasts / Withers - Selective Griefing Removal -->
 
 ## cleanup
-I will explain this feature when I successfully add it into the datapack.
-<!-- Bring all floor items within 10 block radius to player. -->
+This feature adds tha ability to bring items within 16 blocks of the player to the players location. The trigger command for this is `/trigger clean_up`.
 
 ## combatswitch
 I will explain this feature when I successfully add it into the datapack.
@@ -36,18 +35,22 @@ I will explain this feature when I successfully add it into the datapack.
 <!-- Adds fast leaf decay for all trees. -->
 
 ## invframe
-I will explain this feature when I successfully add it into the datapack.
-<!-- Invisible / Invulnerable / Locking - Item Frames -->
+This feature adds the ability to _hide_, _show_, and _find_ a `minecraft:item_frame` or `minecraft:glow_item_frame`. When a `minecraft:item_frame` or `minecraft:glow_item_frame` is hidden, it is also fixed so that you don't have the item rotating or the frame breaking. When a `minecraft:item_frame` or `minecraft:glow_item_frame` is shown, it is unfixed so that you can rotate the item and break the frame. You can use this feature by using the triggers below.
+- `/trigger find_frame` ~ _This makes it possible to find a `minecraft:item_frame` or `minecraft:glow_item_frame` that is invisible and empty._
+- `/trigger hide_frame` ~ _This hides the nearest `minecraft:item_frame` or `minecraft:glow_item_frame` within 1.5 blocks of the player._
+- `/trigger show_frame` ~ _This unhides the nearest `minecraft:item_frame` or `minecraft:glow_item_frame` within 1.5 blocks of the player._
 
 ## invstand
 I will explain this feature when I successfully add it into the datapack.
 <!-- Invisible / Invulnerable / Locking - Armor Stands -->
 
 ## packauthor
-This is should use the `tellraw` command to provide information on the datapack (author and load status) everytime the datapack is reloaded. This feature is curently bugged and does not work as intended.
+This feature uses the `tellraw` command to provide information on the datapack everytime the datapack is reloaded. It also creates the following two `trigger` commands that people can use.
+- `/trigger silence_alerts` ~ _This mutes the datapack alerts for individual features loading._
+- `/trigger enable_alerts` ~ _This unmutes the datapack alerts for individual features loading._
 
 ## playerseats
-I will explain this feature when I successfully add it into the datapack.
+I will explain this feature when I successfully add it into the datapack. Curently under development.
 <!-- Create and manage seating for players. -->
 
 ## pocketshulker
