@@ -24,7 +24,8 @@ I will explain this feature when I successfully add it into the datapack.
 <!-- Creepers / Endermen / Ghasts / Withers - Selective Griefing Removal -->
 
 ## cleanup
-This feature adds tha ability to bring items within 16 blocks of the player to the players location. The trigger command for this is `/trigger clean_up`.
+This feature adds tha ability to bring items within 16 blocks of the player to the players location using the following `trigger` command.
+- `/trigger clean_up` ~ _Brings all droped items within 16 blocks to the players location._
 
 ## combatswitch
 I will explain this feature when I successfully add it into the datapack.
@@ -50,8 +51,8 @@ This feature uses the `tellraw` command to provide information on the datapack e
 - `/trigger enable_alerts` ~ _This unmutes the datapack alerts for individual features loading._
 
 ## playerseats
-I will explain this feature when I successfully add it into the datapack. Curently under development.
-<!-- Create and manage seating for players. -->
+This feature adds the ability to sit anywhere the player wants using the following `trigger` command.
+- `/trigger sit` ~ _This makes the player sit in the location they were standing._
 
 ## pocketshulker
 I will explain this feature when I successfully add it into the datapack.
