@@ -1,8 +1,5 @@
 # ======= Player Seats =======
-# Revoke the advancement for initial baseline.
-advancement revoke @a only playerseats:trigger_seat
-advancement revoke @a only playerseats:trigger_seatkill
-# Remove any existing instances of seats.
-kill @e[tag=playerseats]
+# Add trigger for players to run the cleaplayerseatsnup function.
+scoreboard objectives add sit trigger "Sit"
 # Alert everyone that datapack loaded successfully.
 tellraw @a[team=!no_alerts] {"text":"Playerseats function initialized successfully.", "color":"green", "italic":false}
