@@ -42,3 +42,6 @@ execute unless data storage customizable_armor_stands:settings as_admin.book_cra
 execute unless data storage customizable_armor_stands:settings as_admin.book_help run data modify storage customizable_armor_stands:settings as_admin.book_help set value "Disabled"
 execute unless data storage customizable_armor_stands:settings as_admin.fixed_item_frame run data modify storage customizable_armor_stands:settings as_admin.fixed_item_frame set value "Disabled"
 execute unless data storage customizable_armor_stands:settings as_admin.uuid_lock run data modify storage customizable_armor_stands:settings as_admin.uuid_lock set value "Disabled"
+
+# Alert everyone that datapack loaded successfully.
+tellraw @a[team=!no_alerts] {"text":"Armorstatues function initialized successfully.", "color":"green", "italic":false}

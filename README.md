@@ -23,7 +23,7 @@ The custom recipes are pretty self explanitory from just the names (_they follow
 I will explain this feature when I successfully add it into the datapack.
 <!-- Creepers / Endermen / Ghasts / Withers - Selective Griefing Removal -->
 
-## armor-statues
+## armorstatues
 Armor Statues by [MukiTanuki](https://twitter.com/mukitanuki) & [MSpaceDev](https://github.com/MSpaceDev). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/). Check out the rest of [MukiTanuki's](https://github.com/MukiTanuki) and [MSpaceDev's](https://github.com/MSpaceDev) work!
 > Learn about the details of this datapack on [Vanilla Tweeks](https://vanillatweaks.net/picker/datapacks/) & [Github](https://github.com/MukiTanuki/armor-statues#).
 <!-- Might remove some of the features in this datapack. -->
