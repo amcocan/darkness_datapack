@@ -23,6 +23,11 @@ The custom recipes are pretty self explanitory from just the names (_they follow
 I will explain this feature when I successfully add it into the datapack.
 <!-- Creepers / Endermen / Ghasts / Withers - Selective Griefing Removal -->
 
+## armor-statues
+Armor Statues by [MukiTanuki](https://twitter.com/mukitanuki) & [MSpaceDev](https://github.com/MSpaceDev). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/). Check out the rest of [MukiTanuki's](https://github.com/MukiTanuki) and [MSpaceDev's](https://github.com/MSpaceDev) work!
+> Learn about the details of this datapack on [Vanilla Tweeks](https://vanillatweaks.net/picker/datapacks/) & [Github](https://github.com/MukiTanuki/armor-statues#).
+<!-- Might remove some of the features in this datapack. -->
+
 ## cleanup
 This feature adds tha ability to bring items within 16 blocks of the player to the players location using the following `trigger` command.
 - `/trigger clean_up` ~ _Brings all droped items within 16 blocks to the players location._
@@ -41,10 +46,6 @@ This feature adds the ability to _hide_, _show_, and _find_ a `minecraft:item_fr
 - `/trigger hide_frame` ~ _This hides the nearest `minecraft:item_frame` or `minecraft:glow_item_frame` within 1.5 blocks of the player._
 - `/trigger show_frame` ~ _This unhides the nearest `minecraft:item_frame` or `minecraft:glow_item_frame` within 1.5 blocks of the player._
 
-## invstand
-I will explain this feature when I successfully add it into the datapack.
-<!-- Invisible / Invulnerable / Locking - Armor Stands -->
-
 ## packauthor
 This feature uses the `tellraw` command to provide information on the datapack everytime the datapack is reloaded. It also creates the following two `trigger` commands that people can use.
 - `/trigger silence_alerts` ~ _This mutes the datapack alerts for individual features loading._
@@ -54,8 +55,9 @@ This feature uses the `tellraw` command to provide information on the datapack e
 This feature adds the ability to sit anywhere the player wants using the following `trigger` command.
 - `/trigger sit` ~ _This makes the player sit in the location they were standing._
 
-## pocketshulker
+## pocketshulker [Ignored]
 I will explain this feature when I successfully add it into the datapack.
+> For the time being, I will _ignore adding this feature_ as there are preblems with the duplication of items and optimization.
 <!-- Opening shulkers in inventory. -->
 
 ## shearheads

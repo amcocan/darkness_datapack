@@ -3,6 +3,9 @@
     [
         "packauthor:setup",
         "packauthor:loop",
+        "armor_statues:load",
+		"armor_statues:tick",
+		"armor_statues:second",
         "cleanup:setup",
         "cleanup:loop",
         "invframe:setup",
