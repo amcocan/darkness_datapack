@@ -3,6 +3,8 @@
     [
         "packauthor:setup",
         "packauthor:loop",
+        "antigrief:setup",
+        "antigrief:loop",
         "armor_statues:load",
 		"armor_statues:tick",
 		"armor_statues:second",

@@ -5,6 +5,7 @@
 
 # Clear schedules.
 schedule clear packauthor:loop
+schedule clear antigrief:loop
 schedule clear armor_statues:load
 schedule clear armor_statues:tick
 schedule clear armor_statues:second
