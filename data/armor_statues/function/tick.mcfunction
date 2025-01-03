@@ -7,7 +7,6 @@
 #
 schedule function armor_statues:tick 1t
 
-execute as @e[tag=as_shrine] at @s run particle minecraft:enchant ~ ~ ~ 0.5 0.5 0.5 0.25 5
 #
 # If book crafting is enabled, check for players holding a written book titled "Statues"
 #
