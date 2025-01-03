@@ -1,6 +1,6 @@
 # ======= Antigrief =======
 # Creeper antigrief.
-execute as @e[type=minecraft:creeper,tag=!antigrief] at @s run data merge entity @s {ExplosionRadius:0}
+execute as @e[type=minecraft:creeper,tag=!antigrief] at @s run data merge entity @s {ExplosionPower:0}
 tag @e[type=minecraft:creeper,tag=!antigrief] add antigrief
 
 # Enderman antigrief.
