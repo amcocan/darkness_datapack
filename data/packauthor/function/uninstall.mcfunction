@@ -12,7 +12,7 @@ schedule clear cleanup:loop
 schedule clear invframe:loop
 schedule clear playerseats:loop
 
-tellraw @a[team=!no_alerts] {"text":"Cleared all schedules.", "color":"light_red", "italic":false}
+tellraw @a[team=!no_alerts] {"text":"Cleared all schedules.", "color":"red", "italic":false}
 
 # Remove scoreboard objectives.
 scoreboard objectives remove as_angle
@@ -35,4 +35,4 @@ scoreboard objectives remove show_frame
 scoreboard objectives remove silence_alerts
 scoreboard objectives remove sit
 
-tellraw @a[team=!no_alerts] {"text":"Removed all scoreboard objectives.", "color":"light_red", "italic":false}
+tellraw @a[team=!no_alerts] {"text":"Removed all scoreboard objectives.", "color":"red", "italic":false}
