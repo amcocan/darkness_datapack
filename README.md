@@ -24,7 +24,11 @@ I will explain this feature when I successfully add it into the datapack.
 <!-- Creepers / Endermen / Ghasts / Withers - Selective Griefing Removal -->
 
 ## armorstatues
-Armor Statues by [Phssthpok](https://x.com/MCPhssthpok), [MukiTanuki](https://twitter.com/mukitanuki), and [MSpaceDev](https://github.com/MSpaceDev). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/). Check out the rest of [MukiTanuki's](https://github.com/MukiTanuki) and [MSpaceDev's](https://github.com/MSpaceDev) work!
+Armor Statues allows the player to manipulate armorstands for decoration purposes using a custom `minecraft:written_book`. To learn how to get the custom `minecraft:written_book`, run `/trigger as_help`.
+
+Armor Statues was built by [Phssthpok](https://x.com/MCPhssthpok), [MukiTanuki](https://twitter.com/mukitanuki), and [MSpaceDev](https://github.com/MSpaceDev). Check out the rest of [MukiTanuki's](https://github.com/MukiTanuki) and [MSpaceDev's](https://github.com/MSpaceDev) work!
+
+Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
 > Learn about the details of this datapack on [Vanilla Tweeks](https://vanillatweaks.net/picker/datapacks/) & [Github](https://github.com/MukiTanuki/armor-statues#).
 <!-- Might remove some of the features in this datapack. -->
 
@@ -37,8 +41,13 @@ I will explain this feature when I successfully add it into the datapack.
 <!-- A way to toggle pvp. -->
 
 ## fastleafdecay
-I will explain this feature when I successfully add it into the datapack.
-<!-- Adds fast leaf decay for all trees. -->
+Adds fast leaf decay for all trees.
+
+Fast Leaf Decay was built by [Grant](https://twitter.com/GrantGryczan). Check out the rest of [Grant's](https://github.com/GrantGryczan) work!
+
+Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
+
+> Learn about the details of this datapack on [x.com/vanillatweaks](https://x.com/vanillatweaks/status/1294840567168479233).
 
 ## invframe
 This feature adds the ability to _hide_, _show_, and _find_ a `minecraft:item_frame` or `minecraft:glow_item_frame`. When a `minecraft:item_frame` or `minecraft:glow_item_frame` is hidden, it is also fixed so that you don't have the item rotating or the frame breaking. When a `minecraft:item_frame` or `minecraft:glow_item_frame` is shown, it is unfixed so that you can rotate the item and break the frame. You can use this feature by using the triggers below.

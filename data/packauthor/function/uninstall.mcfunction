@@ -10,6 +10,7 @@ schedule clear armor_statues:load
 schedule clear armor_statues:tick
 schedule clear armor_statues:second
 schedule clear cleanup:loop
+schedule clear fast_leaf_decay:tick
 schedule clear invframe:loop
 schedule clear playerseats:loop
 
@@ -32,6 +33,23 @@ scoreboard objectives remove clean_up
 scoreboard objectives remove enable_alerts
 scoreboard objectives remove find_frame
 scoreboard objectives remove hide_frame
+scoreboard objectives remove leafDec.dummy
+scoreboard objectives remove leafDec.oakL
+scoreboard objectives remove leafDec.oakS
+scoreboard objectives remove leafDec.spruceL
+scoreboard objectives remove leafDec.spruceS
+scoreboard objectives remove leafDec.birchL
+scoreboard objectives remove leafDec.birchS
+scoreboard objectives remove leafDec.jungleL
+scoreboard objectives remove leafDec.jungleS
+scoreboard objectives remove leafDec.acaciaL
+scoreboard objectives remove leafDec.acaciaS
+scoreboard objectives remove leafDec.darkOakL
+scoreboard objectives remove leafDec.darkOakS
+scoreboard objectives remove leafDec.mangroveL
+scoreboard objectives remove leafDec.mangroveS
+scoreboard objectives remove leafDec.cherryL
+scoreboard objectives remove leafDec.cherryS
 scoreboard objectives remove show_frame
 scoreboard objectives remove silence_alerts
 scoreboard objectives remove sit
