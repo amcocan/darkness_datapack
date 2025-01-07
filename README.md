@@ -41,7 +41,7 @@ I will explain this feature when I successfully add it into the datapack.
 <!-- A way to toggle pvp. -->
 
 ## extrashell
-This feature increases the drop of shulker shells to guarantee 2 `minecraft:shulker_shell` items. It perserves the looting requirments from MJE.
+This feature increases the drop of shulker shells to guarantee 2 `minecraft:shulker_shell` items. This will sidestep the looting requirments from MJE.
 
 ## fastleafdecay
 Adds fast leaf decay for all trees.
