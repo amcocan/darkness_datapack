@@ -17,11 +17,7 @@
     {
         "entries":
         [
-            {
-                "directory": "shearheads",
-                "directory": "playerseats",
-                "directory": "packauthor"
-            }
+            {}
         ]
     }
 }
