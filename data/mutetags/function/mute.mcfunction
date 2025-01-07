@@ -1,6 +1,6 @@
 # ======= Mute Tags =======
-# Remove the CustomName and silence the target entity.
-data merge entity @s {CustomName:"", Silent:1b}
+# Silence the target entity.
+data merge entity @s {Silent:1b}
 # Make the targeted entity glow for 5 seconds so that the player knows which entity was affected.
 effect give @s minecraft:glowing 5 0 true
 # Play a sound to let nearby players know that the function ran.
