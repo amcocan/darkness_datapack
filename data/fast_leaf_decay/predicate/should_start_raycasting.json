@@ -160,6 +160,26 @@
 					"max": 2147483647
 				}
 			}
+		},
+		{
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"leafDec.paleL": {
+					"min": 1,
+					"max": 2147483647
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"leafDec.paleS": {
+					"min": 1,
+					"max": 2147483647
+				}
+			}
 		}
 	]
 }
