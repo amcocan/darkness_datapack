@@ -58,6 +58,9 @@ This feature adds the ability to _hide_, _show_, and _find_ a `minecraft:item_fr
 - `/trigger hide_frame` ~ _This hides the nearest `minecraft:item_frame` or `minecraft:glow_item_frame` within 1.5 blocks of the player._
 - `/trigger show_frame` ~ _This unhides the nearest `minecraft:item_frame` or `minecraft:glow_item_frame` within 1.5 blocks of the player._
 
+## mutetags
+To silence an entity rename a `minecraft:name_tag` to `/mute` (case-sensitive) and apply the `minecraft:name_tag` to the entity. To revert this change, repeat the steps with a `minecraft:name_tag` renamed to `/unmute` (case-sensitive).
+
 ## packauthor
 This feature uses the `tellraw` command to provide information on the datapack everytime the datapack is reloaded. It also creates the following two `trigger` commands that people can use.
 - `/trigger silence_alerts` ~ _This mutes the datapack alerts for individual features loading._
@@ -77,6 +80,3 @@ This feature adds the ability to collect a `minecraft:blocks/player_head` withou
 > The items `minecraft:blocks/player_head` will not carry special properties that extend beyond the purpose of decorations. For example, collecting a wither skelleton head (in the future) will not give you a `minecraft:blocks/wither_skeleton_skull`.
 
 To collect the `minecraft:blocks/player_head` you will need to craft a special item useing the recipe found in `minecraft/recipe/god_reaper.json`. This is a shapeless recipe that consists of a `minecraft:armor_stand`, `minecraft:written_book`, and `minecraft:shears`. Once this item is aquired, simply walk up to the player you want the head from and hit them with this item. You must be within 2 blocks of them and they have to be in survival mode for this to work. This feature successfuly triggers only when the entitiy takes damage from the custom item and you are in the correct range.
-
-## mutetags
-To silence an entity rename a `minecraft:name_tag` to `/mute` (case-sensitive) and apply the `minecraft:name_tag` to the entity. To revert this change, repeat the steps with a `minecraft:name_tag` renamed to `/unmute` (case-sensitive).
