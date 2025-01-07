@@ -10,6 +10,7 @@
 		"armor_statues:second",
         "cleanup:setup",
         "cleanup:loop",
+        "extrashell:setup",
         "fast_leaf_decay:load",
         "fast_leaf_decay:tick",
         "invframe:setup",
