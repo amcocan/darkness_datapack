@@ -31,3 +31,11 @@ scoreboard objectives add leafDec.cherryL minecraft.mined:minecraft.cherry_log
 scoreboard objectives add leafDec.cherryS minecraft.mined:minecraft.cherry_leaves
 scoreboard players reset * leafDec.cherryL
 scoreboard players reset * leafDec.cherryS
+scoreboard objectives add leafDec.paleL minecraft.mined:minecraft.pale_oak_log
+scoreboard objectives add leafDec.paleS minecraft.mined:minecraft.pale_oak_leaves
+scoreboard players reset * leafDec.paleL
+scoreboard players reset * leafDec.paleS
+
+# ======= Fast Leaf Decay =======
+# Alert everyone that datapack loaded successfully.
+tellraw @a[team=!no_alerts] {"text":"Fastleafdecay function initialized successfully.", "color":"green", "italic":false}

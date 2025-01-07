@@ -17,10 +17,7 @@
     {
         "entries":
         [
-            {
-				"formats": {"min_inclusive": 61, "max_inclusive": 2147483647},
-				"directory": "fld_overlay_61"
-			}
+            {}
         ]
     }
 }
