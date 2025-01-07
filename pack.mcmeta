@@ -20,8 +20,19 @@
             {
                 "directory": "shearheads",
                 "directory": "playerseats",
-                "directory": "packauthor"
+                "directory": "packauthor",
+                "directory": "overlay_57"
             }
         ]
     }
 }
+
+
+"overlays": {
+		"entries": [
+			{
+				"formats": {"min_inclusive": 57, "max_inclusive": 2147483647},
+				"directory": "overlay_57"
+			}
+		]
+	}
