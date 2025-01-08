@@ -29,7 +29,7 @@ Armor Statues allows the player to manipulate armorstands for decoration purpose
 Armor Statues was built by [Phssthpok](https://x.com/MCPhssthpok), [MukiTanuki](https://twitter.com/mukitanuki), and [MSpaceDev](https://github.com/MSpaceDev). Check out the rest of [MukiTanuki's](https://github.com/MukiTanuki) and [MSpaceDev's](https://github.com/MSpaceDev) work!
 
 Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
-> Learn about the details of this datapack on [Vanilla Tweeks](https://vanillatweaks.net/picker/datapacks/) & [Github](https://github.com/MukiTanuki/armor-statues#).
+> Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/) & [github](https://github.com/MukiTanuki/armor-statues#).
 <!-- Might remove some of the features in this datapack. -->
 
 ## cleanup
@@ -59,6 +59,12 @@ This feature adds the ability to _hide_, _show_, and _find_ a `minecraft:item_fr
 - `/trigger show_frame` ~ _This unhides the nearest `minecraft:item_frame` or `minecraft:glow_item_frame` within 1.5 blocks of the player._
 
 ## miniblocks
+Adds the ability to turn minecraft blocks into mini-blocks (retextured playerheads) using a `minecraft:stonecutter`.
+
+Mini Blocks was built by [The Vanilla Tweeks Team](https://vanillatweaks.net/about/). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
+
+> Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
+
 
 ## mutetags
 To silence an entity rename a `minecraft:name_tag` to `/mute` (case-sensitive) and apply the `minecraft:name_tag` to the entity. To revert this change, repeat the steps with a `minecraft:name_tag` renamed to `/unmute` (case-sensitive).
@@ -72,10 +78,11 @@ This feature uses the `tellraw` command to provide information on the datapack e
 This feature adds the ability to sit anywhere the player wants using the following `trigger` command.
 - `/trigger sit` ~ _This makes the player sit in the location they were standing._
 
+<!-- 
 ## pocketshulker [Ignored]
-I will explain this feature when I successfully add it into the datapack.
+Opening shulkers in inventory.
 > For the time being, I will _ignore adding this feature_ as there are preblems with the duplication of items and optimization.
-<!-- Opening shulkers in inventory. -->
+-->
 
 ## shearheads
 This feature adds the ability to collect a `minecraft:blocks/player_head` without having to kill the player in MJE. Eventualy this feature will extend to other mobs/entities as well, but in the meantime it remains for players only.
