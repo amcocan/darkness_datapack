@@ -58,6 +58,8 @@ This feature adds the ability to _hide_, _show_, and _find_ a `minecraft:item_fr
 - `/trigger hide_frame` ~ _This hides the nearest `minecraft:item_frame` or `minecraft:glow_item_frame` within 1.5 blocks of the player._
 - `/trigger show_frame` ~ _This unhides the nearest `minecraft:item_frame` or `minecraft:glow_item_frame` within 1.5 blocks of the player._
 
+## miniblocks
+
 ## mutetags
 To silence an entity rename a `minecraft:name_tag` to `/mute` (case-sensitive) and apply the `minecraft:name_tag` to the entity. To revert this change, repeat the steps with a `minecraft:name_tag` renamed to `/unmute` (case-sensitive).
 

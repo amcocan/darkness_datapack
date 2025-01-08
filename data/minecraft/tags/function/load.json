@@ -15,6 +15,7 @@
         "fast_leaf_decay:tick",
         "invframe:setup",
         "invframe:loop",
+        "miniblocks:setup",
         "mutetags:setup",
         "playerseats:setup",
         "playerseats:loop",
