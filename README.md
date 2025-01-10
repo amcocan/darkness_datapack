@@ -46,6 +46,11 @@ I will explain this feature when I successfully add it into the datapack.
 <!-- A way to toggle pvp. -->
 
 
+## deathcords
+Will show you the cords of your last death using the following `trigger` command.
+- `/trigger death_cords` ~ _This will show you the cords and dimention of your last death._
+
+
 ## extrashell
 This feature increases the drop of shulker shells to guarantee 2 `minecraft:shulker_shell` items. This will sidestep the looting requirments from MJE.
 

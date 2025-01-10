@@ -10,6 +10,7 @@ schedule clear armor_statues:load
 schedule clear armor_statues:tick
 schedule clear armor_statues:second
 schedule clear cleanup:loop
+schedule clear deathcords:loop
 schedule clear fast_leaf_decay:tick
 schedule clear invframe:loop
 schedule clear playerseats:loop
@@ -30,6 +31,7 @@ scoreboard objectives remove as_lock_uuid4
 scoreboard objectives remove as_pose
 scoreboard objectives remove as_trigger
 scoreboard objectives remove clean_up
+scoreboard objectives remove death_cords
 scoreboard objectives remove enable_alerts
 scoreboard objectives remove find_frame
 scoreboard objectives remove hide_frame
