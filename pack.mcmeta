@@ -2,16 +2,16 @@
     "pack":
     {
         "pack_format": 57,
+        "supported_formats":
+        {
+            "min_inclusive": 57,
+            "max_inclusive": 999
+        },
         "description":
         [
             {"text":"A QoL datapack. ","color":"light_purple"},
             {"text":"amcocan", "color":"green"}
         ]
-    },
-    "supported_formats":
-    {
-      "min_inclusive": 57,
-      "max_inclusive": 999
     },
     "overlays":
     {
