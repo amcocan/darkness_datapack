@@ -5,7 +5,7 @@
         "supported_formats":
         {
             "min_inclusive": 57,
-            "max_inclusive": 999
+            "max_inclusive": 999999
         },
         "description":
         [
