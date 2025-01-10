@@ -1,6 +1,6 @@
 # ======= Deathcords =======
 # Add the logic of the trigger command for the deathcords function.
-data get entity @a[scores={death_cords=1..}, limit=1] LastDeathLocation
+execute as @e[type=minecraft:player, scores={death_cords=1..}] at @s run data get entity @s LastDeathLocation
 # Play a sound so that the player knows it ran.
 execute as @e[scores={death_cords=1..}] run playsound minecraft:block.creaking_heart.hit master @s ~ ~ ~ 0.5 0 0.5
 # Reset and enable the trigger.
