@@ -38,4 +38,4 @@ scoreboard players reset * leafDec.paleS
 
 # ======= Fast Leaf Decay =======
 # Alert everyone that datapack loaded successfully.
-tellraw @a[team=!no_alerts] {"text":"Fastleafdecay function initialized successfully.", "color":"green", "italic":false}
+tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Status: ", "color":"#868e96"}, {"text":"Fastleafdecay function initialized successfully.", "color":"#ced4da"}, {"text":" |", "color":"#ff003c"}]
