@@ -7,7 +7,7 @@ execute as @a[scores={death_cords=1..}] run data modify storage deathcords:cache
 # Reset the timing of the title display message.
 execute as @a[scores={death_cords=1..}] run title @s reset
 # Set the timing of the title display message.
-execute as @a[scores={death_cords=1..}] run title @s times 0.47s 10s 0.47s
+execute as @a[scores={death_cords=1..}] run title @s times 0.47s 4.7s 0.47s
 # Play a sound so that the player knows it ran.
 execute as @a[scores={death_cords=1..}] run playsound minecraft:block.creaking_heart.hit master @s ~ ~ ~ 0.5 0 0.5
 # Show the title to entity self.
