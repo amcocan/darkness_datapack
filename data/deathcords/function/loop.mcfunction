@@ -14,6 +14,10 @@ execute as @a[scores={death_cords=1..}] run playsound minecraft:block.creaking_h
 execute as @a[scores={death_cords=1..}] run title @s title [{"text":"Last Death Cords","color":"#ff003c"}]
 # Show the subtitle to entity self.
 execute as @a[scores={death_cords=1..}] run title @s subtitle [{"text":"| ", "color":"#ff003c"}, {"text":"Dimension: ", "color":"#868e96"}, {"storage":"deathcords:cache", "nbt":"Cache.Dimension", "color":"#ced4da"}, {"text":" | ", "color":"#ff003c"}, {"text":"X: ", "color":"#868e96"}, {"storage":"deathcords:cache", "nbt":"Cache.Pos0", "color":"#ced4da"}, {"text":" | ", "color":"#ff003c"}, {"text":"Y: ", "color":"#868e96"},{"storage":"deathcords:cache", "nbt":"Cache.Pos1", "color":"#ced4da"}, {"text":" | ", "color":"#ff003c"}, {"text":"Z: ", "color":"#868e96"}, {"storage":"deathcords:cache", "nbt":"Cache.Pos2", "color":"#ced4da"}, {"text":" |", "color":"#ff003c"}]
+# Show the title to entity self in chat.
+execute as @a[scores={death_cords=1..}] run tellraw @s [{"text":"Last Death Cords","color":"#ff003c"}]
+# Show the cords to entity self in chat.
+execute as @a[scores={death_cords=1..}] run tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"Dimension: ", "color":"#868e96"}, {"storage":"deathcords:cache", "nbt":"Cache.Dimension", "color":"#ced4da"}, {"text":" | ", "color":"#ff003c"}, {"text":"X: ", "color":"#868e96"}, {"storage":"deathcords:cache", "nbt":"Cache.Pos0", "color":"#ced4da"}, {"text":" | ", "color":"#ff003c"}, {"text":"Y: ", "color":"#868e96"},{"storage":"deathcords:cache", "nbt":"Cache.Pos1", "color":"#ced4da"}, {"text":" | ", "color":"#ff003c"}, {"text":"Z: ", "color":"#868e96"}, {"storage":"deathcords:cache", "nbt":"Cache.Pos2", "color":"#ced4da"}, {"text":" |", "color":"#ff003c"}]
 # Reset and enable the trigger.
 execute as @a[scores={death_cords=1..}] run scoreboard players reset @s death_cords
 scoreboard players enable @a death_cords
