@@ -22,8 +22,7 @@ The custom recipes are pretty self explanitory from just the names (_they follow
 
 
 ## antigrief
-I will explain this feature when I successfully add it into the datapack.
-<!-- Creepers / Endermen / Ghasts / Withers - Selective Griefing Removal -->
+This feature adds anti-greifing for the `minecraft:creeper`, `minecraft:enderman`, and `minecraft:ghast`.
 
 
 ## armorstatues
