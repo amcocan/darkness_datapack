@@ -22,8 +22,7 @@ The custom recipes are pretty self explanitory from just the names (_they follow
 
 
 ## antigrief
-I will explain this feature when I successfully add it into the datapack.
-<!-- Creepers / Endermen / Ghasts / Withers - Selective Griefing Removal -->
+This feature adds anti-greifing for the `minecraft:creeper`, `minecraft:enderman`, and `minecraft:ghast`.
 
 
 ## armorstatues
@@ -44,6 +43,11 @@ This feature adds tha ability to bring items within 16 blocks of the player to t
 ## combatswitch
 I will explain this feature when I successfully add it into the datapack.
 <!-- A way to toggle pvp. -->
+
+
+## deathcords
+Will show you the cords of your last death using the following `trigger` command.
+- `/trigger death_cords` ~ _This will show you the cords and dimention of your last death._
 
 
 ## extrashell
