@@ -1,25 +1,39 @@
 {
     "type": "minecraft:entity",
-    "pools":
-    [
+    "pools": [
         {
-            "rolls": 1.0,
-            "entries":
-            [
+            "rolls": 1,
+            "entries": [
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:shulker_shell",
-                    "weight": 1.0,
-                    "functions":
-                    [
+                    "weight": 1,
+                    "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count": 2.0
+                            "count": 2
                         }
                     ]
                 }
             ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "more_mob_heads:entities/shulker"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "double_shulker_shells:entities/shulker"
+                }
+            ]
         }
-    ],
-    "random_sequence": "minecraft:entities/shulker"
+    ]
 }
