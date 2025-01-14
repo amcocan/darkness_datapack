@@ -1,4 +1,4 @@
 {
-  "type": "minecraft:entity",
-  "random_sequence": "minecraft:entities/tadpole"
+    "type": "minecraft:entity",
+    "random_sequence": "minecraft:entities/tadpole"
 }
