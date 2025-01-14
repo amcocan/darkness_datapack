@@ -13,4 +13,4 @@ execute as @e[type=minecraft:ghast,tag=!antigrief] at @s run data merge entity @
 tag @e[type=minecraft:ghast,tag=!antigrief] add antigrief
 
 # ======= Antigrief Loop =======
-schedule function antigrief:loop 1s 
+schedule function antigrief:loop 1t 
