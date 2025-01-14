@@ -11,6 +11,8 @@ schedule clear armor_statues:tick
 schedule clear armor_statues:second
 schedule clear cleanup:loop
 schedule clear deathcords:loop
+schedule clear durability_ping:tick
+schedule clear durability_ping:schedule
 schedule clear fast_leaf_decay:tick
 schedule clear invframe:loop
 schedule clear playerseats:loop
@@ -32,6 +34,11 @@ scoreboard objectives remove as_pose
 scoreboard objectives remove as_trigger
 scoreboard objectives remove clean_up
 scoreboard objectives remove death_cords
+scoreboard objectives remove duraPing.config
+scoreboard objectives remove duraPing.dummy
+scoreboard objectives remove duraPing
+scoreboard objectives remove duraPing.weapon
+scoreboard objectives remove duraPing.armor
 scoreboard objectives remove enable_alerts
 scoreboard objectives remove find_frame
 scoreboard objectives remove hide_frame
@@ -59,3 +66,11 @@ scoreboard objectives remove silence_alerts
 scoreboard objectives remove sit
 # Message for removing all objectives.
 tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Removed all scoreboard objectives successfully.", "color":"#ced4da"}, {"text":"\n", "color":"#ff003c"}]
+# Remove all stored data values from storage.
+data remove storage customizable_armor_stands:pose_storage Pose
+data remove storage customizable_armor_stands:settings as_admin
+data remove storage customizable_armor_stands:slot_storage Slot
+data remove storage deathcords:cache Cache
+data remove storage durability_ping:storage name
+# Message for removing all objectives.
+tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all data storage values successfully.", "color":"#ced4da"}, {"text":"\n", "color":"#ff003c"}]
