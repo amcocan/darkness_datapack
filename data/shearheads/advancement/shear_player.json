@@ -26,9 +26,7 @@
                     }
                 },
                 "entity":
-                {
-                    "type": "minecraft:player"
-                }
+                {}
             }
         }
     },
