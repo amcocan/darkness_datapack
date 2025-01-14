@@ -9,7 +9,7 @@ execute as @a[scores={death_cords=1..}] run title @s reset
 # Set the timing of the title display message.
 execute as @a[scores={death_cords=1..}] run title @s times 0.47s 4.7s 0.47s
 # Play a sound so that the player knows it ran.
-execute as @a[scores={death_cords=1..}] run playsound minecraft:block.creaking_heart.hit master @s ~ ~ ~ 0.5 0 0.5
+execute as @a[scores={death_cords=1..}] run playsound minecraft:block.creaking_heart.hit master @a[scores={death_cords=1..}] ~ ~ ~ 0.5 0 0.5
 # Show the title to entity self.
 execute as @a[scores={death_cords=1..}] run title @s title [{"text":"Last Death Cords", "color":"#ff003c"}]
 # Show the subtitle to entity self.
