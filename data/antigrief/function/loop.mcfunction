@@ -2,8 +2,8 @@
 # Creeper antigrief.
 # execute as @e[type=minecraft:creeper, tag=!antigrief] at @s run data merge entity @s {ExplosionRadius:0}
 tag @e[type=minecraft:creeper, tag=!antigrief] add antigrief
-execute as @p unless entity @e[type=minecraft:creeper, tag=antigrief, distance=8..] run gamerule mobGriefing false
-execute as @p unless entity @e[type=minecraft:creeper, tag=antigrief, distance=..7] run gamerule mobGriefing true
+execute at @e[type=minecraft:creeper, distance=..5] run gamerule mobGriefing false
+execute at @e[type=minecraft:creeper, distance=6..] run gamerule mobGriefing true
 
 # Enderman antigrief.
 # This feature is located at "data\minecraft\tags\block\enderman_holdable.json" in this datapack.
