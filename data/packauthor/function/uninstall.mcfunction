@@ -15,7 +15,7 @@ schedule clear fast_leaf_decay:tick
 schedule clear invframe:loop
 schedule clear playerseats:loop
 # Message for clearing all schedules.
-tellraw @a[team=!no_alerts] {"text":"Datapack Uninstall Script", "color":"#ff003c", "bold":true}
+tellraw @a[team=!no_alerts] [{"text":"\n", "color":"#ff003c"}, {"text":"Datapack Uninstall Script", "color":"#ff003c", "bold":true}]
 tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all schedules successfully.", "color":"#ced4da"}]
 # Remove scoreboard objectives.
 scoreboard objectives remove as_angle
@@ -58,4 +58,4 @@ scoreboard objectives remove show_frame
 scoreboard objectives remove silence_alerts
 scoreboard objectives remove sit
 # Message for removing all objectives.
-tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Removed all scoreboard objectives successfully.", "color":"#ced4da"}]
+tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Removed all scoreboard objectives successfully.", "color":"#ced4da"}, {"text":"\n", "color":"#ff003c"}]
