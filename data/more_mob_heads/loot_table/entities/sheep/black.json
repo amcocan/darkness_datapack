@@ -27,18 +27,35 @@
                     ]
                 }
             ],
-            "conditions": [
+			"trigger": "minecraft:player_hurt_entity",
+            "conditions":
+            {
+                "damage":
                 {
-                    "condition": "random_chance_with_enchanted_bonus",
-                    "enchantment": "minecraft:looting",
-                    "unenchanted_chance": 0.0175,
-                    "enchanted_chance": {
-                        "type": "minecraft:linear",
-                        "base": 0.02,
-                        "per_level_above_first": 0.0025
+                    "source_entity":
+                    {
+                        "type": "minecraft:player",
+                        "equipment":
+                        {
+                            "mainhand":
+                            {
+                                "items": "minecraft:shears",
+                                "count": 1,
+                                "components":
+                                {
+                                    "minecraft:custom_model_data": 1
+                                }
+                            }
+                        }
                     }
+                },
+                "entity":
+                {
+                    "type": "minecraft:sheep"
                 }
-            ]
+            }
         }
     ]
 }
+
+			
