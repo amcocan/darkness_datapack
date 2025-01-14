@@ -21,6 +21,7 @@
         "invframe:setup",
         "invframe:loop",
         "miniblocks:setup",
+        "more_effective_tools:setup",
         "mutetags:setup",
         "playerseats:setup",
         "playerseats:loop",
