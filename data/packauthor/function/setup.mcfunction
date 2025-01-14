@@ -9,6 +9,6 @@ execute at @e[type=minecraft:player] run playsound minecraft:block.note_block.be
 # List the info and author for the datapack on load or reload.
 tellraw @a [{"text":"\n", "color":"#ff003c"}, {"text":"Darkness Datapack", "color":"#ff003c", "bold":true}]
 tellraw @a [{"text":"| ", "color":"#ff003c"}, {"text":"Info: ", "color":"#868e96"}, {"text":"This is a QoL datapack built for Minecraft Java Edition.", "color":"#ced4da"}]
-tellraw @a [{"text":"| ", "color":"#ff003c"}, {"text":"Author: ", "color":"#868e96"}, {"text":"amcocan", "clickEvent":{"action":"open_url", "value":"https://github.com/amcocan"}, "hoverEvent":{"action":"show_text", "contents":{"text":"Github","color":"#ff003c"}}, "color":"#ff003c"}]
+tellraw @a [{"text":"| ", "color":"#ff003c"}, {"text":"Author: ", "color":"#868e96"}, {"text":"amcocan", "clickEvent":{"action":"open_url", "value":"https://github.com/amcocan"}, "hoverEvent":{"action":"show_text", "contents":{"text":"Github","color":"#ff003c"}}, "color":"#ff003c"}, {"text":"\n", "color":"#ff003c"}]
 # Loading Modules Section Header
-tellraw @a[team=!no_alerts] [{"text":"\n", "color":"#ff003c"}, {"text":"Modules Loaded", "color":"#ff003c", "bold":true}]
+tellraw @a[team=!no_alerts] [{"text":"Modules Loaded", "color":"#ff003c", "bold":true}]
