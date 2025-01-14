@@ -23,8 +23,6 @@ execute as @a[scores={death_cords=1..}] run tellraw @s [{"text":"| ", "color":"#
 execute as @a[scores={death_cords=1..}] run tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"X: ", "color":"#868e96"}, {"storage":"deathcords:cache", "nbt":"Cache.Pos0", "color":"#ced4da"}, {"text":"   ", "color":"#ff003c"}, {"text":"Y: ", "color":"#868e96"},{"storage":"deathcords:cache", "nbt":"Cache.Pos1", "color":"#ced4da"}, {"text":"   ", "color":"#ff003c"}, {"text":"Z: ", "color":"#868e96"}, {"storage":"deathcords:cache", "nbt":"Cache.Pos2", "color":"#ced4da"}, {"text":"\n", "color":"#ff003c"}]
 # Place fade_out sound.
 execute as @a[scores={func_timer=107..}] run playsound minecraft:ui.toast.out master @s ~ ~ ~ 1 1 1
-# Reset functimer for player.
-execute as @a[scores={death_cords=1..}] run scoreboard players set @s func_timer -1
 # Reset and enable the trigger.
 execute as @a[scores={death_cords=1..}] run scoreboard players reset @s death_cords
 scoreboard players enable @a death_cords
