@@ -95,6 +95,14 @@ More Effective Tools was built by [The Vanilla Tweeks Team](https://vanillatweak
 > Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
 
 
+## more_mob_heads
+Adds a drop chance for a custom model of an entity head using the `minecraft:player_head` item. I am using this datapack as the back bone for the [shearheads](#shearheads) feature of my datapack. Any flaws with this datapack are not the fault of [Vanilla Tweeks's Team](https://vanillatweaks.net/about/).
+
+More Mob Heads was built by [The Vanilla Tweeks Team](https://vanillatweaks.net/about/). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
+
+> Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
+
+
 ## mutetags
 To silence an entity rename a `minecraft:name_tag` to `/mute` (case-sensitive) and apply the `minecraft:name_tag` to the entity. To revert this change, repeat the steps with a `minecraft:name_tag` renamed to `/unmute` (case-sensitive).
 

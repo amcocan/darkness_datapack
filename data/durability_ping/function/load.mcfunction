@@ -72,4 +72,4 @@ advancement revoke @a only durability_ping:damage/elytra
 advancement revoke @a only durability_ping:damage/trident
 advancement revoke @a only durability_ping:damage/crossbow
 # Alert everyone that datapack loaded successfully.
-tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Status: ", "color":"#868e96"}, {"text":"Durabilityping function initialized successfully.", "color":"#ced4da"}]
+tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Status: ", "color":"#868e96"}, {"text":"Durability_ping function initialized successfully.", "color":"#ced4da"}]
