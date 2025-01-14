@@ -1,11 +1,9 @@
 {
     "type": "minecraft:entity",
-    "pools":
-    [
+    "pools": [
         {
             "bonus_rolls": 0.0,
-            "entries":
-            [
+            "entries": [
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:green_wool"

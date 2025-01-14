@@ -1,23 +1,23 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "value": "vanilla:entities/phantom"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "vanilla:entities/phantom"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "value": "more_mob_heads:entities/phantom"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "more_mob_heads:entities/phantom"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
