@@ -65,7 +65,7 @@ scoreboard objectives remove show_frame
 scoreboard objectives remove silence_alerts
 scoreboard objectives remove sit
 # Message for removing all objectives.
-tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Removed all scoreboard objectives successfully.", "color":"#ced4da"}, {"text":"\n", "color":"#ff003c"}]
+tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Removed all scoreboard objectives successfully.", "color":"#ced4da"}]
 # Remove all stored data values from storage.
 data remove storage customizable_armor_stands:pose_storage Pose
 data remove storage customizable_armor_stands:settings as_admin
