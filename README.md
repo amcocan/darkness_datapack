@@ -65,10 +65,6 @@ Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
 > Learn about the details of this datapack on [x.com/vanillatweaks](https://x.com/vanillatweaks/status/1294840567168479233).
 
 
-## functimer
-This feature is a tick based timer used on the backend of the datapack to time other function calls and events.
-
-
 ## invframe
 This feature adds the ability to _hide_, _show_, and _find_ a `minecraft:item_frame` or `minecraft:glow_item_frame`. When a `minecraft:item_frame` or `minecraft:glow_item_frame` is hidden, it is also fixed so that you don't have the item rotating or the frame breaking. When a `minecraft:item_frame` or `minecraft:glow_item_frame` is shown, it is unfixed so that you can rotate the item and break the frame. You can use this feature by using the triggers below.
 - `/trigger find_frame` ~ _This makes it possible to find a `minecraft:item_frame` or `minecraft:glow_item_frame` that is invisible and empty._
