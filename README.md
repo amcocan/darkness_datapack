@@ -53,9 +53,7 @@ Will show you the cords of your last death using the following `trigger` command
 ## durability_ping
 Adds durability ping for tools, weapons, and armor.
 
-Durability Ping was built by [Vanilla Tweeks](https://vanillatweaks.net/about/). Check out more datapacks on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)!
-
-Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
+Durability Ping was built by [The Vanilla Tweeks Team](https://vanillatweaks.net/about/). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
 
 > Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
 
@@ -85,6 +83,14 @@ This feature adds the ability to _hide_, _show_, and _find_ a `minecraft:item_fr
 Adds the ability to turn minecraft blocks into mini-blocks (retextured playerheads) using a `minecraft:stonecutter`.
 
 Mini Blocks was built by [The Vanilla Tweeks Team](https://vanillatweaks.net/about/). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
+
+> Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
+
+
+## more_effective_tools
+Adds effective tools for blocks that do not have any such as `minecraft:glass`.
+
+More Effective Tools was built by [The Vanilla Tweeks Team](https://vanillatweaks.net/about/). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
 
 > Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
 
