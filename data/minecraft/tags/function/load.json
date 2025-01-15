@@ -26,6 +26,7 @@
         "mutetags:setup",
         "playerseats:setup",
         "playerseats:loop",
-        "shearheads:setup"
+        "shearheads:setup",
+        "shearheads:loop"
     ]
 }
