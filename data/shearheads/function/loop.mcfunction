@@ -16,7 +16,7 @@ kill @e[tag=ReaperField]
 # Summon new ReaperField.
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s unless entity @e[tag=ReaperField] positioned as @s run summon minecraft:interaction ~ ~ ~ {Tags:["ReaperField"], width:1f,height:2f,response:1b}
 # Run the interaction command.
-execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] at @s run say "Interacted Successfully!"
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] run say Interacted Successfully!
 
 # ======= Shear Heads Schedule =======
 schedule function shearheads:loop 2t append
