@@ -10,4 +10,4 @@ execute as @e[type=interaction, tag=ReaperField] at @s if entity @e[distance=..1
 # execute as @e[type=minecraft:interaction,nbt={attack:{}},tag=] at @s run
 # execute as @e[type=minecraft:interaction,nbt={attack:{}},tag=] run data remove entity @s attack
 # ======= Shear Heads Schedule =======
-schedule function shearheads:loop 1t append
+schedule function shearheads:loop 1s append
