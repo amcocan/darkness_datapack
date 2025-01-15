@@ -96,11 +96,11 @@ More Effective Tools was built by [The Vanilla Tweeks Team](https://vanillatweak
 
 
 ## more_mob_heads
-Adds a drop chance for a custom model of an entity head using the `minecraft:player_head` item. I am using this datapack as the back bone for the [shearheads](#shearheads) feature of my datapack. Any flaws with this datapack are not the fault of [Vanilla Tweeks's Team](https://vanillatweaks.net/about/).
+Originaly adds a drop chance for a custom model of an entity head using the `minecraft:player_head` item. I striped out this functionality and am using part of this datapack as the back bone for the [shearheads](#shearheads) feature of my datapack. Any flaws with this datapack are not the fault of [Vanilla Tweeks's Team](https://vanillatweaks.net/about/).
 
 More Mob Heads was built by [The Vanilla Tweeks Team](https://vanillatweaks.net/about/). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
 
-> Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
+> Learn about the original details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
 
 
 ## mutetags
