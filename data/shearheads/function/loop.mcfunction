@@ -10,7 +10,7 @@ execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper
 # Adds particles to entites InField that can be interacted with.
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] run execute at @e[tag=InField] run particle dust{color:[1.0,0.0,0.24],scale:1.47} ~ ~1 ~ 0 0 0 1 1 force @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}]
 # Adds glow to entites InField that can be interacted with.
-execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] run execute as @e[tag=InField] run effect give @s minecraft:glowing 1 0 true
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] run execute as @e[tag=InField] run effect give @s minecraft:glowing 0.1 0 true
 # execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[distance=..16, tag=!InField] run summon minecraft:interaction ~ ~ ~ {Tags:["ReaperField"], width:1f,height:1f,response:1b}
 # execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[distance=..16, tag=!InField] run summon minecraft:interaction ~ ~ ~ {Tags:["ReaperField"], width:1f,height:1f,response:1b}
 # execute at @e[type=interaction, tag=ReaperField] as @s if entity @e[distance=1..] run kill @s
