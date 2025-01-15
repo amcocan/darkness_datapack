@@ -45,7 +45,7 @@ execute as @e[type=minecraft:phantom, tag=!phantom] run data modify entity @s Ta
 execute as @e[type=minecraft:pig, tag=!pig] run data modify entity @s Tags append value "pig"
 execute as @e[type=minecraft:piglin_brute, tag=!piglin_brute] run data modify entity @s Tags append value "piglin_brute"
 execute as @e[type=minecraft:pillager, tag=!pillager] run data modify entity @s Tags append value "pillager"
-execute as @e[type=minecraft:player, tag=!player] run data modify entity @s Tags append value "player"
+execute as @e[type=minecraft:player, tag=!player] run tag @s add player
 execute as @e[type=minecraft:polar_bear, tag=!polar_bear] run data modify entity @s Tags append value "polar_bear"
 execute as @e[type=minecraft:pufferfish, tag=!pufferfish] run data modify entity @s Tags append value "pufferfish"
 execute as @e[type=minecraft:rabbit, tag=!rabbit] run data modify entity @s Tags append value "rabbit"
@@ -125,7 +125,7 @@ execute as @e[type=minecraft:phantom, tag=!can_loot_head] run data modify entity
 execute as @e[type=minecraft:pig, tag=!can_loot_head] run data modify entity @s Tags append value "can_loot_head"
 execute as @e[type=minecraft:piglin_brute, tag=!can_loot_head] run data modify entity @s Tags append value "can_loot_head"
 execute as @e[type=minecraft:pillager, tag=!can_loot_head] run data modify entity @s Tags append value "can_loot_head"
-execute as @e[type=minecraft:player, tag=!can_loot_head] run data modify entity @s Tags append value "can_loot_head"
+execute as @e[type=minecraft:player, tag=!can_loot_head] run tag @s add can_loot_head
 execute as @e[type=minecraft:polar_bear, tag=!can_loot_head] run data modify entity @s Tags append value "can_loot_head"
 execute as @e[type=minecraft:pufferfish, tag=!can_loot_head] run data modify entity @s Tags append value "can_loot_head"
 execute as @e[type=minecraft:rabbit, tag=!can_loot_head] run data modify entity @s Tags append value "can_loot_head"
