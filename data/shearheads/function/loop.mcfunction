@@ -19,4 +19,4 @@ execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper
 # execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] at @s run
 
 # ======= Shear Heads Schedule =======
-schedule function shearheads:loop 2t append
+schedule function shearheads:loop 1t append
