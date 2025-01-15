@@ -4,7 +4,7 @@ execute as @a[scores={sit=1..}] at @s run summon interaction ~ ~ ~ {Tags:["playe
 # Sit the player on the interaction type entity.
 execute as @a[scores={sit=1..}] at @s run ride @s mount @e[tag=playerseats,distance=..1,limit=1,sort=nearest]
 # Play a sound for sitting so that other players know this function ran.
-execute as @a[scores={sit=1..}] at @e[tag=invisible_entity] run playsound minecraft:entity.strider.saddle player @a[distance=..16] ~ ~ ~ 1 1 0.5
+execute as @a[scores={sit=1..}] at @e[tag=playerseats] run playsound minecraft:entity.strider.saddle player @a[distance=..16] ~ ~ ~ 1 1 0.5
 
 # ======= Remove Seat =======
 # Remove the interaction entity created so that no entities are left behind.
