@@ -27,6 +27,7 @@
         "playerseats:setup",
         "playerseats:loop",
         "shearheads:setup",
-        "shearheads:detect"
+        "shearheads:detect",
+        "shearheads:loop"
     ]
 }
