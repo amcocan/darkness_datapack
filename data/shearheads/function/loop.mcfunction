@@ -9,15 +9,14 @@ execute at @a[nbt={Inventory:[{components:{"minecraft:custom_data":{god_reaper:1
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] positioned as @s run tag @s remove InField
 # Adds particles to entites InField that can be interacted with.
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] run execute at @e[tag=InField] run particle dust{color:[1.0,0.0,0.24],scale:1} ~ ~1 ~ 0 0 0 0 0 force @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}]
-
-# execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[distance=..16, tag=!InField] run summon minecraft:interaction ~ ~ ~ {Tags:["ReaperField"], width:1f,height:1f,response:1b}
-# execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[distance=..16, tag=!InField] run summon minecraft:interaction ~ ~ ~ {Tags:["ReaperField"], width:1f,height:1f,response:1b}
-# execute at @e[type=interaction, tag=ReaperField] as @s if entity @e[distance=1..] run kill @s
-
+# Clear ReaperField data.
+execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] run data remove entity @s interaction
+# Kill existing ReaperFields.
+kill @e[tag=ReaperField]
+# Summon new ReaperField.
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s unless entity @e[tag=ReaperField] positioned as @s run summon minecraft:interaction ~ ~ ~ {Tags:["ReaperField"], width:1f,height:2f,response:1b}
+# Run the interaction command.
 # execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] at @s run
-# execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] run data remove entity @s interaction
 
-# execute as @e[type=minecraft:interaction,nbt={attack:{}},tag=] at @s run
-# execute as @e[type=minecraft:interaction,nbt={attack:{}},tag=] run data remove entity @s attack
 # ======= Shear Heads Schedule =======
 schedule function shearheads:loop 2t append
