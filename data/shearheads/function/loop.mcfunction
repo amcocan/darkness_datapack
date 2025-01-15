@@ -4,7 +4,7 @@
 # Marks valid entities InField.
 execute at @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] run execute as @e[tag=can_loot_head, distance=..16] at @s run data modify entity @s[tag=!InField] Tags append value "InField"
 # Unmarks invalid entities from Field.
-execute at @a[nbt={Inventory:{components:{"minecraft:custom_data":{god_reaper:1}}}}] run execute as @e[tag=can_loot_head, distance=16..] at @s run tag @s[tag=InField] remove InField
+execute at @a[nbt={Inventory:[{tag:{components:{"minecraft:custom_data":{god_reaper:1}}}}]}] run execute as @e[tag=can_loot_head, distance=16..] at @s run tag @s[tag=InField] remove InField
 
 # execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[distance=..16, tag=!InField] run summon minecraft:interaction ~ ~ ~ {Tags:["ReaperField"], width:1f,height:1f,response:1b}
 # execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[distance=..16, tag=!InField] run summon minecraft:interaction ~ ~ ~ {Tags:["ReaperField"], width:1f,height:1f,response:1b}
