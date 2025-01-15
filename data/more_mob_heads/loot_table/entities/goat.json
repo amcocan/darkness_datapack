@@ -6,11 +6,6 @@
             "entries": [
                 {
                     "type": "minecraft:alternatives",
-                    "conditions": [
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
                     "children": [
                         {
                             "type": "item",
@@ -39,16 +34,6 @@
                                         "nbt": "{IsScreamingGoat:0b}"
                                     },
                                     "entity": "this"
-                                },
-                                {
-                                    "condition": "random_chance_with_enchanted_bonus",
-                                    "enchantment": "minecraft:looting",
-                                    "unenchanted_chance": 0.01,
-                                    "enchanted_chance": {
-                                        "type": "minecraft:linear",
-                                        "base": 0.011,
-                                        "per_level_above_first": 0.001
-                                    }
                                 }
                             ]
                         },
@@ -79,16 +64,6 @@
                                         "nbt": "{IsScreamingGoat:1b}"
                                     },
                                     "entity": "this"
-                                },
-                                {
-                                    "condition": "random_chance_with_enchanted_bonus",
-                                    "enchantment": "minecraft:looting",
-                                    "unenchanted_chance": 1,
-                                    "enchanted_chance": {
-                                        "type": "minecraft:linear",
-                                        "base": 1,
-                                        "per_level_above_first": 0
-                                    }
                                 }
                             ]
                         }

@@ -6,11 +6,6 @@
             "entries": [
                 {
                     "type": "minecraft:alternatives",
-                    "conditions": [
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
                     "children": [
                         {
                             "type": "item",

@@ -2,11 +2,6 @@
     "type": "minecraft:entity",
     "pools": [
         {
-            "conditions": [
-                {
-                    "condition": "killed_by_player"
-                }
-            ],
             "rolls": 1,
             "entries": [
                 {
@@ -26,18 +21,6 @@
                                     ]
                                 },
                                 "minecraft:item_name": "\"Toast Head\""
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "random_chance_with_enchanted_bonus",
-                            "enchantment": "minecraft:looting",
-                            "unenchanted_chance": 1.0,
-                            "enchanted_chance": {
-                                "type": "minecraft:linear",
-                                "base": 1,
-                                "per_level_above_first": 0
                             }
                         }
                     ]
@@ -81,11 +64,6 @@
             ]
         },
         {
-            "conditions": [
-                {
-                    "condition": "killed_by_player"
-                }
-            ],
             "rolls": 1,
             "entries": [
                 {
@@ -118,16 +96,6 @@
                                         "nbt": "{RabbitType:0}"
                                     },
                                     "entity": "this"
-                                },
-                                {
-                                    "condition": "random_chance_with_enchanted_bonus",
-                                    "enchantment": "minecraft:looting",
-                                    "unenchanted_chance": 0.26,
-                                    "enchanted_chance": {
-                                        "type": "minecraft:linear",
-                                        "base": 0.31,
-                                        "per_level_above_first": 0.05
-                                    }
                                 }
                             ]
                         },
@@ -158,16 +126,6 @@
                                         "nbt": "{RabbitType:1}"
                                     },
                                     "entity": "this"
-                                },
-                                {
-                                    "condition": "random_chance_with_enchanted_bonus",
-                                    "enchantment": "minecraft:looting",
-                                    "unenchanted_chance": 0.26,
-                                    "enchanted_chance": {
-                                        "type": "minecraft:linear",
-                                        "base": 0.31,
-                                        "per_level_above_first": 0.05
-                                    }
                                 }
                             ]
                         },
@@ -198,16 +156,6 @@
                                         "nbt": "{RabbitType:2}"
                                     },
                                     "entity": "this"
-                                },
-                                {
-                                    "condition": "random_chance_with_enchanted_bonus",
-                                    "enchantment": "minecraft:looting",
-                                    "unenchanted_chance": 0.26,
-                                    "enchanted_chance": {
-                                        "type": "minecraft:linear",
-                                        "base": 0.31,
-                                        "per_level_above_first": 0.05
-                                    }
                                 }
                             ]
                         },
@@ -238,16 +186,6 @@
                                         "nbt": "{RabbitType:3}"
                                     },
                                     "entity": "this"
-                                },
-                                {
-                                    "condition": "random_chance_with_enchanted_bonus",
-                                    "enchantment": "minecraft:looting",
-                                    "unenchanted_chance": 0.26,
-                                    "enchanted_chance": {
-                                        "type": "minecraft:linear",
-                                        "base": 0.31,
-                                        "per_level_above_first": 0.05
-                                    }
                                 }
                             ]
                         },
@@ -278,16 +216,6 @@
                                         "nbt": "{RabbitType:4}"
                                     },
                                     "entity": "this"
-                                },
-                                {
-                                    "condition": "random_chance_with_enchanted_bonus",
-                                    "enchantment": "minecraft:looting",
-                                    "unenchanted_chance": 0.26,
-                                    "enchanted_chance": {
-                                        "type": "minecraft:linear",
-                                        "base": 0.31,
-                                        "per_level_above_first": 0.05
-                                    }
                                 }
                             ]
                         },
@@ -318,16 +246,6 @@
                                         "nbt": "{RabbitType:5}"
                                     },
                                     "entity": "this"
-                                },
-                                {
-                                    "condition": "random_chance_with_enchanted_bonus",
-                                    "enchantment": "minecraft:looting",
-                                    "unenchanted_chance": 0.26,
-                                    "enchanted_chance": {
-                                        "type": "minecraft:linear",
-                                        "base": 0.31,
-                                        "per_level_above_first": 0.05
-                                    }
                                 }
                             ]
                         },
@@ -358,16 +276,6 @@
                                         "nbt": "{RabbitType:99}"
                                     },
                                     "entity": "this"
-                                },
-                                {
-                                    "condition": "random_chance_with_enchanted_bonus",
-                                    "enchantment": "minecraft:looting",
-                                    "unenchanted_chance": 1,
-                                    "enchanted_chance": {
-                                        "type": "minecraft:linear",
-                                        "base": 1,
-                                        "per_level_above_first": 0
-                                    }
                                 }
                             ]
                         }

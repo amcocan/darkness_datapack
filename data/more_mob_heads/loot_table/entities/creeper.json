@@ -26,18 +26,6 @@
                         }
                     ]
                 }
-            ],
-            "conditions": [
-                {
-                    "condition": "killed_by_player"
-                },
-                {
-                    "condition": "entity_properties",
-                    "predicate": {
-                        "nbt": "{powered:1b}"
-                    },
-                    "entity": "this"
-                }
             ]
         }
     ]
