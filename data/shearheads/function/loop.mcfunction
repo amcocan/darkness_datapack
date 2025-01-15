@@ -9,7 +9,7 @@ execute at @a[nbt={Inventory:[{components:{"minecraft:custom_data":{god_reaper:1
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] positioned as @s run tag @s remove InField
 # Adds particles to entites InField that can be interacted with.
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] run execute at @e[tag=InField] run particle dust{color:[1.0,0.0,0.24],scale:1} ~ ~1 ~ 0 0 0 0 0 force @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}]
-# Run the interaction command.
+# Run the interaction command. (Remember that here you have to loot heads and have a proximity in mind. Default out of range is your own head.)
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] run say Interacted Successfully!
 # Clear ReaperField data.
 execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] run data remove entity @s interaction
