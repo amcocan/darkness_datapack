@@ -2,7 +2,7 @@
 # For all entities within 16 blocks of the player, summon an interaction entity at the location of the other entities.
 # This list will obviously exclude the player in question and the entites such as interactions, minecrarts, items, item_frames, armorstands etc.
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[distance=..16] run summon minecraft:interaction ~ ~ ~ {Tags:["ReaperField"], width:1f,height:1f,response:1b}
-kill @e[type=minecraft:interaction, tag=ReaperField]
+execute as @e[type=interaction, tag=ReaperField] at @s if entity @e[distance=..1] run kill @s
 
 # execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] at @s run
 # execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] run data remove entity @s interaction
