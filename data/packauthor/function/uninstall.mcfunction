@@ -16,6 +16,8 @@ schedule clear durability_ping:schedule
 schedule clear fast_leaf_decay:tick
 schedule clear invframe:loop
 schedule clear playerseats:loop
+schedule clear shearheads:loop
+schedule clear shearheads:detect
 # Message for clearing all schedules.
 tellraw @a[team=!no_alerts] [{"text":"\n", "color":"#ff003c"}, {"text":"Datapack Uninstall Script", "color":"#ff003c", "bold":true}]
 tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all schedules successfully.", "color":"#ced4da"}]
