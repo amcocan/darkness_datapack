@@ -33,6 +33,7 @@ scoreboard objectives remove as_lock_uuid4
 scoreboard objectives remove as_pose
 scoreboard objectives remove as_trigger
 scoreboard objectives remove clean_up
+scoreboard objectives remove creeper_in_range
 scoreboard objectives remove death_cords
 scoreboard objectives remove duraPing.config
 scoreboard objectives remove duraPing.dummy
