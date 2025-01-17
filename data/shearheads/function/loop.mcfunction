@@ -1,6 +1,10 @@
 # ======= Shear Heads =======
 # For all entities within 16 blocks of the player, summon an interaction entity at the location of the other entities.
 # This list will obviously exclude the player in question and the entites such as interactions, minecrarts, items, item_frames, armorstands etc.
+# Set raycast distance.
+scoreboard player set @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] raycast_length 4
+# Call raycast function.
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] anchored eyes run function shearheads:raycast
 # Marks valid entities InField.
 execute at @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] if entity @e[tag=can_loot_head, distance=..16] run tag @e[tag=can_loot_head, distance=..16] add InField
 # Unmarks invalid entities from Field.
@@ -23,4 +27,4 @@ execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper
 
 
 # ======= Shear Heads Schedule =======
-schedule function shearheads:loop 2t append
+schedule function shearheads:loop 1t append
