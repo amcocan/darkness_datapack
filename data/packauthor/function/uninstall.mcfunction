@@ -64,6 +64,7 @@ scoreboard objectives remove leafDec.cherryL
 scoreboard objectives remove leafDec.cherryS
 scoreboard objectives remove leafDec.paleL
 scoreboard objectives remove leafDec.paleS
+scoreboard objectives remove raycast_length
 scoreboard objectives remove show_frame
 scoreboard objectives remove silence_alerts
 scoreboard objectives remove sit

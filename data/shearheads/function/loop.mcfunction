@@ -18,5 +18,9 @@ kill @e[tag=ReaperField]
 # Summon new ReaperField.
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s unless entity @e[tag=ReaperField] positioned as @s run summon minecraft:interaction ~ ~1.55 ~ {Tags:["ReaperField"], width:0.05f,height:0.05f,response:1b}
 
+# Make the noise for shearing to let player know this function ran.
+# playsound block.beehive.shear player @a[distance=..30] ~ ~ ~
+
+
 # ======= Shear Heads Schedule =======
 schedule function shearheads:loop 2t append
