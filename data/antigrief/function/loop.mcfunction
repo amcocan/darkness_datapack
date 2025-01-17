@@ -1,13 +1,8 @@
 # ======= Antigrief =======
+
 # Creeper antigrief.
-# execute as @e[type=minecraft:creeper, tag=!antigrief] at @s run data merge entity @s {ExplosionRadius:0}
 # Tag all creepers with antigrief tag.
-tag @e[type=minecraft:creeper, tag=!antigrief] add antigrief
-# 
-# Toogle gamerule mobGriefing.
-# execute as @a[tag=creeper_target] run gamerule mobGriefing false
-# execute unless entity @a[tag=creeper_target] run gamerule mobGriefing true
-# 
+tag @e[type=minecraft:creeper, tag=!antigrief] add antigrief 
 # Remove creeper_target tag from players with no creepers nearby.
 execute as @a[tag=creeper_target] at @s unless entity @e[tag=creeper, distance=..10] run tag @s remove creeper_target
 # Add creeper_target tag to players with creepers in range.
