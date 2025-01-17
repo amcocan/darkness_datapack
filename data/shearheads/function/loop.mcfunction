@@ -4,7 +4,7 @@
 # Marks valid entities InField.
 execute at @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] if entity @e[tag=can_loot_head, distance=..16] run tag @e[tag=can_loot_head, distance=..16] add InField
 # Unmarks invalid entities from Field.
-execute as @e[tag=can_loot_head] unless entity @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}, distance ..16] run tag @s[tag=InField] remove InField
+execute as @e[tag=can_loot_head] unless entity @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}, distance=..16] run tag @s[tag=InField] remove InField
 # If  you are the player holding the Reaper, get excluded from the field.
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] positioned as @s run tag @s remove InField
 # Adds particles to entites InField that can be interacted with.
