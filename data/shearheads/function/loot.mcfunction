@@ -46,7 +46,7 @@ execute as @e[tag=pig] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ 
 execute as @e[tag=piglin_brute] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/piglin_brute
 execute as @e[tag=pillager] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/pillager
 execute as @e[tag=player] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot minecraft:blocks/sheared_head
-# execute as @e[tag=player] at @s unless entity @s[tag=hit_by_ray] run loot spawn ~ ~ ~ loot minecraft:blocks/sheared_head
+execute as @e[tag=player] at @s unless entity @e[tag=hit_by_ray] run loot spawn ~ ~ ~ loot minecraft:blocks/sheared_head
 execute as @e[tag=polar_bear] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/polar_bear
 execute as @e[tag=pufferfish] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/pufferfish
 execute as @e[tag=rabbit] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/rabbit
