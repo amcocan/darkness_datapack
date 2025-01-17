@@ -90,4 +90,3 @@ execute as @e[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run execu
 execute as @e[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run execute at @s[type=minecraft:zombified_piglin, tag=!ray_caster] run particle dust{color:[1.0,0.0,0.24],scale:0.7} ~ ~2.35 ~ 0 0 0 0 0 force @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}]
 # Call loot function.
 execute as @e[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run tag @s[tag=!ray_caster] add hit_by_ray
-execute as @e[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run execute at @s[tag=!ray_caster] as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField, limit=1, sort=nearest] run function shearheads:loot
