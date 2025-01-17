@@ -75,5 +75,6 @@ data remove storage customizable_armor_stands:settings as_admin
 data remove storage customizable_armor_stands:slot_storage Slot
 data remove storage deathcords:cache Cache
 data remove storage durability_ping:storage name
+data remove storage entity:type type
 # Message for removing all objectives.
 tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all data storage values successfully.", "color":"#ced4da"}, {"text":"\n", "color":"#ff003c"}]
