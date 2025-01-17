@@ -2,7 +2,7 @@
 # For all entities within 16 blocks of the player, summon an interaction entity at the location of the other entities.
 # This list will obviously exclude the player in question and the entites such as interactions, minecrarts, items, item_frames, armorstands etc.
 # Set raycast distance.
-scoreboard player set @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] raycast_length 4
+scoreboard players set @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] raycast_length 4
 # Call raycast function.
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] anchored eyes run function shearheads:raycast
 # Marks valid entities InField.
