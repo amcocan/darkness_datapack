@@ -8,7 +8,7 @@ execute as @e[tag=can_loot_head] unless entity @a[nbt={SelectedItem:{components:
 # If  you are the player holding the Reaper, get excluded from the field.
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] positioned as @s run tag @s remove InField
 # Adds particles to entites InField that can be interacted with.
-execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[tag=InField] anchored eyes run particle dust{color:[1.0,0.0,0.24],scale:1} ~ ~ ~ 0 0 0 0 0 force @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}]
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[tag=InField] run particle dust{color:[1.0,0.0,0.24],scale:1} ~ ~ ~ 0 0 0 0 0 force @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}]
 # Run the interaction command. (Remember that here you have to loot heads and have a proximity in mind. Default out of range is your own head.)
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s run execute as @s at @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField, limit=1, sort=nearest] run say Interacted Successfully!
 # Clear ReaperField data.
@@ -16,7 +16,7 @@ execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] r
 # Kill existing ReaperFields.
 kill @e[tag=ReaperField]
 # Summon new ReaperField.
-execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s unless entity @e[tag=ReaperField] positioned as @s run summon minecraft:interaction ~ ~1.55 ~ {Tags:["ReaperField"], width:0.05f,height:0.05f,response:1b}
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s unless entity @e[tag=ReaperField] positioned as @s run summon minecraft:interaction ~ ~1.62 ~ {Tags:["ReaperField"], width:0.01f,height:0.01f,response:1b}
 
 # Make the noise for shearing to let player know this function ran.
 # playsound block.beehive.shear player @a[distance=..30] ~ ~ ~
