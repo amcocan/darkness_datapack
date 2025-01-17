@@ -26,7 +26,7 @@ execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] r
 # Kill existing ReaperFields.
 kill @e[tag=ReaperField]
 # Summon new ReaperField positioned inside player cammera .
-execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s unless entity @e[tag=ReaperField] positioned as @s run summon minecraft:interaction ~ ~1.62 ~ {Tags:["ReaperField"], width:0.00001f,height:0.00001f,response:1b}
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s unless entity @e[tag=ReaperField] positioned as @s run summon minecraft:interaction ~ ~1.62 ~ {Tags:["ReaperField"], width:0.001f,height:0.001f,response:1b}
 
 # Make the noise for shearing to let player know this function ran.
 # playsound block.beehive.shear player @a[distance=..30] ~ ~ ~
