@@ -2,9 +2,9 @@
 # For all entities within 16 blocks of the player, summon an interaction entity at the location of the other entities.
 # This list will obviously exclude the player in question and the entites such as interactions, minecrarts, items, item_frames, armorstands etc.
 # Marks valid entities InField.
-execute at @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] run execute as @e[tag=can_loot_head, distance=..16] at @s run tag @s[tag=!InField] add InField
+execute at @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] if entity @e[tag=can_loot_head, distance=..16] run tag @e[tag=can_loot_head, distance=..16] add InField
 # Unmarks invalid entities from Field.
-execute at @a[nbt={Inventory:[{components:{"minecraft:custom_data":{god_reaper:1}}}]}] run execute as @e[tag=can_loot_head, distance=16..] at @s run tag @s[tag=InField] remove InField
+execute as @e[tag=can_loot_head] unless entity @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}, distance ..16] run tag @s[tag=InField] remove InField
 # If  you are the player holding the Reaper, get excluded from the field.
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] positioned as @s run tag @s remove InField
 # Adds particles to entites InField that can be interacted with.
