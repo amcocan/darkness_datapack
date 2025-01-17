@@ -1,6 +1,6 @@
 # ======= Shear Heads =======
 # Detect type of entity and tag it.
-execute as @e[type=minecraft:allay, tag=!allay] run tag @s add this
+execute as @e[type=minecraft:allay, tag=!allay] run tag @s add allay
 execute as @e[type=minecraft:armadillo, tag=!armadillo] run tag @s add armadillo
 execute as @e[type=minecraft:axolotl, tag=!axolotl] run tag @s add axolotl
 execute as @e[type=minecraft:bat, tag=!bat] run tag @s add bat
