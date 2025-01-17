@@ -20,7 +20,7 @@ execute as @e[tag=can_loot_head] unless entity @a[nbt={SelectedItem:{components:
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] positioned as @s run tag @s remove InField
 
 # Run the interaction command. (Remember that here you have to loot heads and have a proximity in mind. Default out of range is your own head.)
-execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @e[tag=hit_by_ray, distance=..5] as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField, limit=1, sort=nearest] run function shearheads:loot
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s if entity @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField, limit=1, sort=nearest] run function shearheads:loot
 # Clear ReaperField data.
 execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] run data remove entity @s interaction
 # Kill existing ReaperFields.
