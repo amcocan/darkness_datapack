@@ -4,7 +4,7 @@
 # Set raycast distance.
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] run scoreboard players set @s raycast_length 7
 # Call raycast function.
-execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] @s run execute anchored eyes run function shearheads:raycast
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s run execute anchored eyes run function shearheads:raycast
 # Marks valid entities InField.
 execute at @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] if entity @e[tag=can_loot_head, distance=..16] run tag @e[tag=can_loot_head, distance=..16] add InField
 # Unmarks invalid entities from Field.
