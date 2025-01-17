@@ -12,15 +12,24 @@
         "cleanup:loop",
         "deathcords:setup",
         "deathcords:loop",
+        "durability_ping:load",
+        "durability_ping:tick",
+        "durability_ping:schedule",
         "extrashell:setup",
         "fast_leaf_decay:load",
         "fast_leaf_decay:tick",
         "invframe:setup",
         "invframe:loop",
         "miniblocks:setup",
+        "more_effective_tools:setup",
+        "more_mob_heads:setup",
         "mutetags:setup",
         "playerseats:setup",
         "playerseats:loop",
-        "shearheads:setup"
+        "shearheads:setup",
+        "shearheads:detect",
+        "shearheads:loop",
+        "shearheads:loot",
+        "shearheads:raycast"
     ]
 }

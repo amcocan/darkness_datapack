@@ -25,7 +25,7 @@ The custom recipes are pretty self explanitory from just the names (_they follow
 This feature adds anti-greifing for the `minecraft:creeper`, `minecraft:enderman`, and `minecraft:ghast`.
 
 
-## armorstatues
+## armor_statues
 Armor Statues allows the player to manipulate armorstands for decoration purposes using a custom `minecraft:written_book`. To learn how to get the custom `minecraft:written_book`, run `/trigger as_help`.
 
 Armor Statues was built by [Phssthpok](https://x.com/MCPhssthpok), [MukiTanuki](https://twitter.com/mukitanuki), and [MSpaceDev](https://github.com/MSpaceDev). Check out the rest of [MukiTanuki's](https://github.com/MukiTanuki) and [MSpaceDev's](https://github.com/MSpaceDev) work!
@@ -50,11 +50,19 @@ Will show you the cords of your last death using the following `trigger` command
 - `/trigger death_cords` ~ _This will show you the cords and dimention of your last death._
 
 
+## durability_ping
+Adds durability ping for tools, weapons, and armor.
+
+Durability Ping was built by [The Vanilla Tweeks Team](https://vanillatweaks.net/about/). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
+
+> Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
+
+
 ## extrashell
 This feature increases the drop of shulker shells to guarantee 2 `minecraft:shulker_shell` items. This will sidestep the looting requirments from MJE.
 
 
-## fastleafdecay
+## fast_leaf_decay
 Adds fast leaf decay for all trees.
 
 Fast Leaf Decay was built by [Grant](https://twitter.com/GrantGryczan). Check out the rest of [Grant's](https://github.com/GrantGryczan) work!
@@ -77,6 +85,22 @@ Adds the ability to turn minecraft blocks into mini-blocks (retextured playerhea
 Mini Blocks was built by [The Vanilla Tweeks Team](https://vanillatweaks.net/about/). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
 
 > Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
+
+
+## more_effective_tools
+Adds effective tools for blocks that do not have any such as `minecraft:glass`.
+
+More Effective Tools was built by [The Vanilla Tweeks Team](https://vanillatweaks.net/about/). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
+
+> Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
+
+
+## more_mob_heads
+Originaly adds a drop chance for a custom model of an entity head using the `minecraft:player_head` item. I striped out this functionality and am using part of this datapack as the back bone for the [shearheads](#shearheads) feature of my datapack. Any flaws with this datapack are not the fault of [Vanilla Tweeks's Team](https://vanillatweaks.net/about/).
+
+More Mob Heads was built by [The Vanilla Tweeks Team](https://vanillatweaks.net/about/). Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
+
+> Learn about the original details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/).
 
 
 ## mutetags

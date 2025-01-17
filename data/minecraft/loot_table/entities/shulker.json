@@ -1,25 +1,21 @@
 {
     "type": "minecraft:entity",
-    "pools":
-    [
+    "pools": [
         {
-            "rolls": 1.0,
-            "entries":
-            [
+            "rolls": 1,
+            "entries": [
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:shulker_shell",
-                    "weight": 1.0,
-                    "functions":
-                    [
+                    "weight": 1,
+                    "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count": 2.0
+                            "count": 2
                         }
                     ]
                 }
             ]
         }
-    ],
-    "random_sequence": "minecraft:entities/shulker"
+    ]
 }
