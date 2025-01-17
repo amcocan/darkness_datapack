@@ -80,7 +80,7 @@ execute as @e[type=minecraft:zombie_villager, tag=!zombie_villager] run tag @s a
 execute as @e[type=minecraft:zombified_piglin, tag=!zombified_piglin] run tag @s add zombified_piglin
 
 # Store the entity type for looting.
-execute as @e[tag=!can_loot_head] run data modify storage entity:type type.name set from entity @s Tags.pos[0]
+# execute as @e[tag=!can_loot_head] run data modify storage entity:type type.name set from entity @s Tags.pos[0]
 
 # Detect untaged entity and tag it with a tag for looting heads.
 execute as @e[tag=allay] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head

@@ -29,6 +29,7 @@
         "shearheads:setup",
         "shearheads:detect",
         "shearheads:loop",
+        "shearheads:loot",
         "shearheads:raycast"
     ]
 }
