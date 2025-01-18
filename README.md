@@ -5,7 +5,7 @@
 <h1 align="center">Darkness Datapack</h1>
 
 This is a QoL (quality of life) datapack built for versions `1.21.3` and later of Minecraft Java Edition (MJE). Below are some of the features that this datapack includes and some documentation on how they work.
-> There is a resourcepack comming soon for this datapack.
+> __Warning:__ The [Darkness ResourcePk](https://github.com/amcocan/darkness_resourcepack) is required for the best experience.
 
 
 ## custom recipes
