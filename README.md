@@ -130,3 +130,5 @@ This feature adds the ability to collect a `minecraft:blocks/player_head` withou
 > The items `minecraft:blocks/player_head` will not carry special properties that extend beyond the purpose of decorations. For example, collecting a wither skelleton head will not give you a `minecraft:blocks/wither_skeleton_skull`.
 
 To collect the `minecraft:blocks/player_head` you will need to craft a special item useing the recipe found in `minecraft/recipe/god_reaper.json`. This is a shapeless recipe that consists of a `minecraft:armor_stand`, `minecraft:written_book`, and `minecraft:shears`. Once this item is aquired, simply walk up to the target entity (within 5 blocks), look at them, and right click.
+
+> __Note:__ The item from the recipe `minecraft/recipe/god_reaper.json` requires you to use the [Darkness ResourcePk]() I made. Otherwise you will get a display error for the custom item. This is due to the changes made to resource packs in the `1.21.4` version of MJE. 
