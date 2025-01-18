@@ -55,6 +55,7 @@ execute as @e[tag=salmon] at @s unless entity @s[tag=!hit_by_ray] run loot spawn
 execute as @e[tag=sheep] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/sheep
 execute as @e[tag=shulker] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/shulker
 execute as @e[tag=silverfish] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/silverfish
+execute as @e[tag=skeleton] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot minecraft:blocks/skeleton_skull
 execute as @e[tag=skeleton_horse] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/skeleton_horse
 execute as @e[tag=slime] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/slime
 execute as @e[tag=sniffer] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/sniffer

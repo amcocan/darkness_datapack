@@ -23,6 +23,7 @@ The custom recipes are pretty self explanitory from just the names (_they follow
 
 ## antigrief
 This feature adds anti-greifing for the `minecraft:creeper`, `minecraft:enderman`, and `minecraft:ghast`.
+> __Note:__ If an entity of type `minecraft:player` AFK's within the range of a `minecraft:creeper`, `gamerule:mobGriefing` will be set to false and potentialy interfere with the villager breeding process. The ranges for this behavior are activated as follows. _If a `minecraft:creeper` is within 4 blocks of a entity of type `minecraft:player`, `gamerule:mobGriefing` will be set to false. This gamerule will stay as false untill the entity of type `minecraft:creeper` is 10 or more blocks away from a `minecraft:player`._ Another thing to consider is that entities of type `minecraft:ghast` will not light blocks on fire with the fire charges as this violates the antigriefing mechanic used on the `minecraft:ghast`.
 
 
 ## armor_statues
@@ -40,9 +41,9 @@ This feature adds tha ability to bring items within 16 blocks of the player to t
 - `/trigger clean_up` ~ _Brings all droped items within 16 blocks to the players location._
 
 
-## combatswitch
+<!-- ## combatswitch
 I will explain this feature when I successfully add it into the datapack.
-<!-- A way to toggle pvp. -->
+A way to toggle pvp. -->
 
 
 ## deathcords
@@ -125,7 +126,9 @@ Opening shulkers in inventory.
 
 
 ## shearheads
-This feature adds the ability to collect a `minecraft:blocks/player_head` without having to kill the player in MJE. Eventualy this feature will extend to other mobs/entities as well, but in the meantime it remains for players only.
-> The items `minecraft:blocks/player_head` will not carry special properties that extend beyond the purpose of decorations. For example, collecting a wither skelleton head (in the future) will not give you a `minecraft:blocks/wither_skeleton_skull`.
+This feature adds the ability to collect a `minecraft:blocks/player_head` without having to kill the player in MJE. This feature also extends to other mobs/entities as well.
+> The items `minecraft:blocks/player_head` will not carry special properties that extend beyond the purpose of decorations. For example, collecting a wither skelleton head will not give you a `minecraft:blocks/wither_skeleton_skull`.
 
-To collect the `minecraft:blocks/player_head` you will need to craft a special item useing the recipe found in `minecraft/recipe/god_reaper.json`. This is a shapeless recipe that consists of a `minecraft:armor_stand`, `minecraft:written_book`, and `minecraft:shears`. Once this item is aquired, simply walk up to the player you want the head from and hit them with this item. You must be within 2 blocks of them and they have to be in survival mode for this to work. This feature successfuly triggers only when the entitiy takes damage from the custom item and you are in the correct range.
+To collect the `minecraft:blocks/player_head` you will need to craft a special item useing the recipe found in `minecraft/recipe/god_reaper.json`. This is a shapeless recipe that consists of a `minecraft:armor_stand`, `minecraft:written_book`, and `minecraft:shears`. Once this item is aquired, simply walk up to the target entity (within 5 blocks), look at them, and right click.
+
+> __Note:__ The item from the recipe `minecraft/recipe/god_reaper.json` requires you to use the [Darkness ResourcePk]() I made. Otherwise you will get a display error for the custom item. This is due to the changes made to resource packs in the `1.21.4` version of MJE. 
