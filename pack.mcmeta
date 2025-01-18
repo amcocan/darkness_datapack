@@ -9,8 +9,12 @@
         },
         "description":
         [
-            {"text":"A QoL datapack. ","color":"light_purple"},
-            {"text":"amcocan", "color":"green"}
+            {"text":"| ", "color":"#ff003c"},
+            {"text":"Info: ", "color":"#868e96"},
+            {"text":"A QoL Datapack.", "color":"#ced4da"},
+            {"text":"\n| ", "color":"#ff003c"},
+            {"text":"Author: ", "color":"#868e96"},
+            {"text":"amcocan", "clickEvent":{"action":"open_url", "value":"https://github.com/amcocan"}, "hoverEvent":{"action":"show_text", "contents":{"text":"Github","color":"#ff003c"}}, "color":"#ced4da"}
         ]
     },
     "overlays":
