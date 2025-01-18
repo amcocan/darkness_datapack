@@ -54,6 +54,7 @@ execute as @e[type=minecraft:salmon, tag=!salmon] run tag @s add salmon
 execute as @e[type=minecraft:sheep, tag=!sheep] run tag @s add sheep
 execute as @e[type=minecraft:shulker, tag=!shulker] run tag @s add shulker
 execute as @e[type=minecraft:silverfish, tag=!silverfish] run tag @s add silverfish
+execute as @e[type=minecraft:skeleton, tag=!skeleton] run tag @s add skeleton
 execute as @e[type=minecraft:skeleton_horse, tag=!skeleton_horse] run tag @s add skeleton_horse
 execute as @e[type=minecraft:slime, tag=!slime] run tag @s add slime
 execute as @e[type=minecraft:sniffer, tag=!sniffer] run tag @s add sniffer
@@ -137,6 +138,7 @@ execute as @e[tag=salmon] unless entity @s[tag=can_loot_head] run tag @s add can
 execute as @e[tag=sheep] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=shulker] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=silverfish] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
+execute as @e[tag=skeleton] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=skeleton_horse] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=slime] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=sniffer] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
