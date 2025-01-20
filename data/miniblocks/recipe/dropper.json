@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Dropper\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Dropper\"}",
       "minecraft:rarity": "common"
     }
   }

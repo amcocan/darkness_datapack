@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Observer\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Observer\"}",
       "minecraft:rarity": "common"
     }
   }

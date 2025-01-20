@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Fire Coral\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Fire Coral\"}",
       "minecraft:rarity": "common"
     }
   }

@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Orange Concrete\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Orange Concrete\"}",
       "minecraft:rarity": "common"
     }
   }

@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Polished Tuff\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Polished Tuff\"}",
       "minecraft:rarity": "common"
     }
   }

@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Stone Bricks\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Stone Bricks\"}",
       "minecraft:rarity": "common"
     }
   }

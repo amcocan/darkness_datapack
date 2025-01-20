@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Shroomlight\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Shroomlight\"}",
       "minecraft:rarity": "common"
     }
   }

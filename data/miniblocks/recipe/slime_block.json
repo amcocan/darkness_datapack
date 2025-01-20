@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Slime Block\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Slime Block\"}",
       "minecraft:rarity": "common"
     }
   }

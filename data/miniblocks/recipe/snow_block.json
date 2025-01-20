@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Snow Block\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Snow Block\"}",
       "minecraft:rarity": "common"
     }
   }

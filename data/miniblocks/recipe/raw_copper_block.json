@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Raw Copper Block\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Raw Copper Block\"}",
       "minecraft:rarity": "common"
     }
   }

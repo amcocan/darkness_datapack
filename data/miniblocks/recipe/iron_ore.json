@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Iron Ore\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Iron Ore\"}",
       "minecraft:rarity": "common"
     }
   }

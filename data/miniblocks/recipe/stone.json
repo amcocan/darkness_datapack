@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Stone\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Stone\"}",
       "minecraft:rarity": "common"
     }
   }

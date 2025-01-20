@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Exposed Copper Bulb\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Exposed Copper Bulb\"}",
       "minecraft:rarity": "common"
     }
   }

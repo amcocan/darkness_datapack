@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Redstone Block\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Redstone Block\"}",
       "minecraft:rarity": "common"
     }
   }

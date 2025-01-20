@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Blue Concrete\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Blue Concrete\"}",
       "minecraft:rarity": "common"
     }
   }

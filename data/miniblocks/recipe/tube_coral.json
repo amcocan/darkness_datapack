@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Tube Coral\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Tube Coral\"}",
       "minecraft:rarity": "common"
     }
   }

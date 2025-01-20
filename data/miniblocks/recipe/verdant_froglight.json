@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Verdant Froglight\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Verdant Froglight\"}",
       "minecraft:rarity": "common"
     }
   }

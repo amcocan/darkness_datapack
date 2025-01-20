@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Jungle Log\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Jungle Log\"}",
       "minecraft:rarity": "common"
     }
   }

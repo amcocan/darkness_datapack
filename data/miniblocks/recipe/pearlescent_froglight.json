@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Pearlescent Froglight\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Pearlescent Froglight\"}",
       "minecraft:rarity": "common"
     }
   }

@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Deepslate Diamond Ore\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Deepslate Diamond Ore\"}",
       "minecraft:rarity": "common"
     }
   }

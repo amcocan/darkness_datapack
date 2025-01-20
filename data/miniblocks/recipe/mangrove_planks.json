@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Mangrove Planks\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Mangrove Planks\"}",
       "minecraft:rarity": "common"
     }
   }

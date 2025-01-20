@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Raw Iron Block\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Raw Iron Block\"}",
       "minecraft:rarity": "common"
     }
   }

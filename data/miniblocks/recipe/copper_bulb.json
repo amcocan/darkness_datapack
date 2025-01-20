@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Copper Bulb\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Copper Bulb\"}",
       "minecraft:rarity": "common"
     }
   }

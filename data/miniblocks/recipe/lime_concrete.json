@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Lime Concrete\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Lime Concrete\"}",
       "minecraft:rarity": "common"
     }
   }

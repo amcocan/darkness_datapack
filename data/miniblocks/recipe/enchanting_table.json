@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Enchanting Table\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Enchanting Table\"}",
       "minecraft:rarity": "common"
     }
   }

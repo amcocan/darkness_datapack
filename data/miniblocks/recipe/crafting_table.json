@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Crafting Table\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Crafting Table\"}",
       "minecraft:rarity": "common"
     }
   }

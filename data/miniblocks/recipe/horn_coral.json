@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Horn Coral\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Horn Coral\"}",
       "minecraft:rarity": "common"
     }
   }

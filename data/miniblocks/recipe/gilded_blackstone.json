@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Gilded Blackstone\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Gilded Blackstone\"}",
       "minecraft:rarity": "common"
     }
   }

@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Dispenser\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Dispenser\"}",
       "minecraft:rarity": "common"
     }
   }

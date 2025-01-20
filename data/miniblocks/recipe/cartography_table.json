@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Cartography Table\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Cartography Table\"}",
       "minecraft:rarity": "common"
     }
   }

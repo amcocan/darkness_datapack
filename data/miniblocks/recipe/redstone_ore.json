@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Redstone Ore\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Redstone Ore\"}",
       "minecraft:rarity": "common"
     }
   }

@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Polished Diorite\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Polished Diorite\"}",
       "minecraft:rarity": "common"
     }
   }

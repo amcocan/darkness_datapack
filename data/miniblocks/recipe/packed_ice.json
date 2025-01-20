@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Packed Ice\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Packed Ice\"}",
       "minecraft:rarity": "common"
     }
   }

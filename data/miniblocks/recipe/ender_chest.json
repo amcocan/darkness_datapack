@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Ender Chest\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Ender Chest\"}",
       "minecraft:rarity": "common"
     }
   }

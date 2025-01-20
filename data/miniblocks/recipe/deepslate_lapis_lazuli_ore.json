@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Deepslate Lapis Lazuli Ore\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Deepslate Lapis Lazuli Ore\"}",
       "minecraft:rarity": "common"
     }
   }

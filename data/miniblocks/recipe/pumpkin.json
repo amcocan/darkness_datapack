@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Pumpkin\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Pumpkin\"}",
       "minecraft:rarity": "common"
     }
   }

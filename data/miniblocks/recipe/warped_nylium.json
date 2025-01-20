@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Warped Nylium\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Warped Nylium\"}",
       "minecraft:rarity": "common"
     }
   }

@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Sticky Piston\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Sticky Piston\"}",
       "minecraft:rarity": "common"
     }
   }

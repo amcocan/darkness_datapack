@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Respawn Anchor\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Respawn Anchor\"}",
       "minecraft:rarity": "common"
     }
   }

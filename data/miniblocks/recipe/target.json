@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Target\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Target\"}",
       "minecraft:rarity": "common"
     }
   }

@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Cobbled Deepslate\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Cobbled Deepslate\"}",
       "minecraft:rarity": "common"
     }
   }

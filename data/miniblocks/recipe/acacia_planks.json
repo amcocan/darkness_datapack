@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Acacia Planks\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Acacia Planks\"}",
       "minecraft:rarity": "common"
     }
   }
