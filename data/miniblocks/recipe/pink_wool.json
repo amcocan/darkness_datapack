@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "group": "mini_blocks",
+  "ingredient": "minecraft:pink_wool",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ1Mjk2YTc4ZTFlNjlmMzA1MjNkY2NiODAzYTg0NjMyMmNhODM0NjM3ZDI3Nzk2M2UxOWIyMjliN2I4MTQyZSJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Pink Wool\"}",
+      "minecraft:rarity": "common"
+    }
+  }
+}
