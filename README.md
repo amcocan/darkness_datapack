@@ -32,9 +32,7 @@ Armor Statues allows the player to manipulate armorstands for decoration purpose
 Armor Statues was built by [Phssthpok](https://x.com/MCPhssthpok), [MukiTanuki](https://twitter.com/mukitanuki), and [MSpaceDev](https://github.com/MSpaceDev). Check out the rest of [MukiTanuki's](https://github.com/MukiTanuki) and [MSpaceDev's](https://github.com/MSpaceDev) work!
 
 Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
-> Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/) & [github](https://github.com/MukiTanuki/armor-statues#).
-
-> I removed the itemframe features from this datapack since I added my own [here](#invframe).
+> Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/) & [github](https://github.com/MukiTanuki/armor-statues#). Also, I removed the itemframe features from this datapack since I added my own [here](#invframe).
 
 
 ## cleanup
