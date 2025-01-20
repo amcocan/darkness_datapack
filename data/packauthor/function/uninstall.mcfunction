@@ -74,7 +74,7 @@ tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ",
 data remove storage customizable_armor_stands:pose_storage Pose
 data remove storage customizable_armor_stands:settings as_admin
 data remove storage customizable_armor_stands:slot_storage Slot
-data remove storage deathcords:cache Cache
+data remove storage deathcords:cache name
 data remove storage durability_ping:storage name
 data remove storage entity:type type
 # Message for removing all objectives.
