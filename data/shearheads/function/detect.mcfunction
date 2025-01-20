@@ -43,6 +43,7 @@ execute as @e[type=minecraft:panda, tag=!panda] run tag @s add panda
 execute as @e[type=minecraft:parrot, tag=!parrot] run tag @s add parrot
 execute as @e[type=minecraft:phantom, tag=!phantom] run tag @s add phantom
 execute as @e[type=minecraft:pig, tag=!pig] run tag @s add pig
+execute as @e[type=minecraft:piglin, tag=!piglin] run tag @s add piglin
 execute as @e[type=minecraft:piglin_brute, tag=!piglin_brute] run tag @s add piglin_brute
 execute as @e[type=minecraft:pillager, tag=!pillager] run tag @s add pillager
 execute as @e[type=minecraft:player, tag=!player] run tag @s add player
@@ -128,6 +129,7 @@ execute as @e[tag=panda] unless entity @s[tag=can_loot_head] run tag @s add can_
 execute as @e[tag=parrot] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=phantom] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=pig] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
+execute as @e[tag=piglin] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=piglin_brute] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=pillager] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=player] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head

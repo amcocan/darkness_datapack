@@ -43,6 +43,7 @@ execute as @e[tag=panda] at @s unless entity @s[tag=!hit_by_ray] run loot spawn 
 execute as @e[tag=parrot] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/parrot
 execute as @e[tag=phantom] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/phantom
 execute as @e[tag=pig] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/pig
+execute as @e[tag=piglin] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/piglin
 execute as @e[tag=piglin_brute] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/piglin_brute
 execute as @e[tag=pillager] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/pillager
 execute as @e[tag=player] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot minecraft:blocks/sheared_head
@@ -55,7 +56,7 @@ execute as @e[tag=salmon] at @s unless entity @s[tag=!hit_by_ray] run loot spawn
 execute as @e[tag=sheep] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/sheep
 execute as @e[tag=shulker] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/shulker
 execute as @e[tag=silverfish] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/silverfish
-execute as @e[tag=skeleton] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot minecraft:blocks/skeleton_skull
+execute as @e[tag=skeleton] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/skeleton
 execute as @e[tag=skeleton_horse] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/skeleton_horse
 execute as @e[tag=slime] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/slime
 execute as @e[tag=sniffer] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/sniffer
