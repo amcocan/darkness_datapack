@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "group": "mini_blocks",
+  "ingredient": "minecraft:gray_shulker_box",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAxMzk4YTY5MWFiYjg1NWNjZTFjY2I2YmQzYmFkZTUwYmEyNWJlMDEyY2FiZWYzMWZiZGYwM2FlNDliYzg4NSJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Gray Shulker Box\"}",
+      "minecraft:rarity": "common"
+    }
+  }
+}
