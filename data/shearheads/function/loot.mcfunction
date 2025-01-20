@@ -75,6 +75,7 @@ execute as @e[tag=wandering_trader] at @s unless entity @s[tag=!hit_by_ray] run 
 execute as @e[tag=warden] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/warden
 execute as @e[tag=witch] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/witch
 execute as @e[tag=wither] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/wither
+execute as @e[tag=wither_skeleton] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/wither_skeleton
 execute as @e[tag=wolf] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/wolf
 execute as @e[tag=zoglin] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/zoglin
 execute as @e[tag=zombie_horse] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/zombie_horse

@@ -74,6 +74,7 @@ execute as @e[type=minecraft:wandering_trader, tag=!wandering_trader] run tag @s
 execute as @e[type=minecraft:warden, tag=!warden] run tag @s add warden
 execute as @e[type=minecraft:witch, tag=!witch] run tag @s add witch
 execute as @e[type=minecraft:wither, tag=!wither] run tag @s add wither
+execute as @e[type=minecraft:wither_skeleton, tag=!wither_skeleton] run tag @s add wither_skeleton
 execute as @e[type=minecraft:wolf, tag=!wolf] run tag @s add wolf
 execute as @e[type=minecraft:zoglin, tag=!zoglin] run tag @s add zoglin
 execute as @e[type=minecraft:zombie_horse, tag=!zombie_horse] run tag @s add zombie_horse
@@ -158,6 +159,7 @@ execute as @e[tag=wandering_trader] unless entity @s[tag=can_loot_head] run tag 
 execute as @e[tag=warden] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=witch] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=wither] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
+execute as @e[tag=wither_skeleton] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=wolf] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=zoglin] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
 execute as @e[tag=zombie_horse] unless entity @s[tag=can_loot_head] run tag @s add can_loot_head
