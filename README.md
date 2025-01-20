@@ -33,17 +33,13 @@ Armor Statues was built by [Phssthpok](https://x.com/MCPhssthpok), [MukiTanuki](
 
 Maintained by [Vanilla Tweeks](https://vanillatweaks.net/about/).
 > Learn about the details of this datapack on [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/) & [github](https://github.com/MukiTanuki/armor-statues#).
-<!-- Might remove some of the features in this datapack. -->
+
+> I removed the itemframe features from this datapack since I added my own [here](#invframe).
 
 
 ## cleanup
 This feature adds tha ability to bring items within 16 blocks of the player to the players location using the following `trigger` command.
 - `/trigger clean_up` ~ _Brings all droped items within 16 blocks to the players location._
-
-
-<!-- ## combatswitch
-I will explain this feature when I successfully add it into the datapack.
-A way to toggle pvp. -->
 
 
 ## deathcords
@@ -117,12 +113,6 @@ This feature uses the `tellraw` command to provide information on the datapack e
 ## playerseats
 This feature adds the ability to sit anywhere the player wants using the following `trigger` command.
 - `/trigger sit` ~ _This makes the player sit in the location they were standing._
-
-<!-- 
-## pocketshulker [Ignored]
-Opening shulkers in inventory.
-> For the time being, I will _ignore adding this feature_ as there are preblems with the duplication of items and optimization.
--->
 
 
 ## shearheads
