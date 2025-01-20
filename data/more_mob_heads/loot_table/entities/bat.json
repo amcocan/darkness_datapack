@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Bat Head\""
+                                "minecraft:item_name": "{\"text\":\"Bat Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{bat:skull}"
                             }
                         }
                     ]

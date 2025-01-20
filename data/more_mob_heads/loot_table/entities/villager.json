@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Armorer Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Armorer Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{armorer_villager:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Butcher Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Butcher Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{butcher_villager:skull}"
                                     }
                                 }
                             ],
@@ -83,7 +85,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Cartographer Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Cartographer Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{cartographer_villager:skull}"
                                     }
                                 }
                             ],
@@ -113,7 +116,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Cleric Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Cleric Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{cleric_villager:skull}"
                                     }
                                 }
                             ],
@@ -143,7 +147,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Farmer Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Farmer Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{farmer_villager:skull}"
                                     }
                                 }
                             ],
@@ -173,7 +178,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Fisherman Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Fisherman Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{fisherman_villager:skull}"
                                     }
                                 }
                             ],
@@ -203,7 +209,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Fletcher Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Fletcher Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{fletcher_villager:skull}"
                                     }
                                 }
                             ],
@@ -233,7 +240,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Leatherworker Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Leatherworker Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{leatherworker_villager:skull}"
                                     }
                                 }
                             ],
@@ -263,7 +271,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Librarian Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Librarian Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{librarian_villager:skull}"
                                     }
                                 }
                             ],
@@ -293,7 +302,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Mason Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Mason Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{mason_villager:skull}"
                                     }
                                 }
                             ],
@@ -323,7 +333,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Nitwit Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Nitwit Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{nitwit_villager:skull}"
                                     }
                                 }
                             ],
@@ -353,7 +364,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Villager Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{villager:skull}"
                                     }
                                 }
                             ],
@@ -383,7 +395,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Shepherd Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Shepherd Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{shepherd_villager:skull}"
                                     }
                                 }
                             ],
@@ -413,7 +426,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Toolsmith Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Toolsmith Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{toolsmith_villager:skull}"
                                     }
                                 }
                             ],
@@ -443,7 +457,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Weaponsmith Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Weaponsmith Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{weaponsmith_villager:skull}"
                                     }
                                 }
                             ],

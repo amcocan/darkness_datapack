@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Camel Head\""
+                                "minecraft:item_name": "{\"text\":\"Camel Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{camel:skull}"
                             }
                         }
                     ]

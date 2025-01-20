@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Red Mooshroom Head\""
+                                        "minecraft:item_name": "{\"text\":\"Red Mooshroom Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{red_mooshroom:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Brown Mooshroom Head\""
+                                        "minecraft:item_name": "{\"text\":\"Brown Mooshroom Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{brown_mooshroom:skull}"
                                     }
                                 }
                             ],

@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"White Horse Head\""
+                                        "minecraft:item_name": "{\"text\":\"White Horse Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{white_horse:skull}"
                                     }
                                 }
                             ],
@@ -86,7 +87,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Creamy Horse Head\""
+                                        "minecraft:item_name": "{\"text\":\"Creamy Horse Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{creamy_horse:skull}"
                                     }
                                 }
                             ],
@@ -149,7 +151,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Chestnut Horse Head\""
+                                        "minecraft:item_name": "{\"text\":\"Chestnut Horse Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{chestnut_horse:skull}"
                                     }
                                 }
                             ],
@@ -212,7 +215,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Brown Horse Head\""
+                                        "minecraft:item_name": "{\"text\":\"Brown Horse Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{brown_horse:skull}"
                                     }
                                 }
                             ],
@@ -275,7 +279,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Black Horse Head\""
+                                        "minecraft:item_name": "{\"text\":\"Black Horse Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{black_horse:skull}"
                                     }
                                 }
                             ],
@@ -338,7 +343,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Gray Horse Head\""
+                                        "minecraft:item_name": "{\"text\":\"Gray Horse Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{gray_horse:skull}"
                                     }
                                 }
                             ],
@@ -401,7 +407,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Dark Brown Horse Head\""
+                                        "minecraft:item_name": "{\"text\":\"Dark Brown Horse Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{dark_brown_horse:skull}"
                                     }
                                 }
                             ],

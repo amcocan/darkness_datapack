@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Ghast Head\""
+                                "minecraft:item_name": "{\"text\":\"Ghast Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{ghast:skull}"
                             }
                         }
                     ]

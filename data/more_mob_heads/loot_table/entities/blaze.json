@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Blaze Head\""
+                                "minecraft:item_name": "{\"text\":\"Blaze Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{blaze:skull}"
                             }
                         }
                     ]

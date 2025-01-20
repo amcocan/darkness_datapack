@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Magma Cube Head\""
+                                "minecraft:item_name": "{\"text\":\"Magma Cube Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{magma_cube:skull}"
                             }
                         }
                     ]

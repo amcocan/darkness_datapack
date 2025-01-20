@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Vindicator Head\""
+                                "minecraft:item_name": "{\"text\":\"Vindicator Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{vindicator:skull}"
                             }
                         }
                     ]

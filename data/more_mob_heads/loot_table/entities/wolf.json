@@ -30,7 +30,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Ashen Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Ashen Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{ashen_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -61,7 +62,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Angry Ashen Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Angry Ashen Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{angry_ashen_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -97,7 +99,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Black Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Black Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{black_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -128,7 +131,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Angry Black Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Angry Black Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{angry_black_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -164,7 +168,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Chestnut Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Chestnut Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{chestnut_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -195,7 +200,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Angry Chestnut Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Angry Chestnut Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{angry_chestnut_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -231,7 +237,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Pale Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Pale Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{pale_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -262,7 +269,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Angry Pale Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Angry Pale Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{angry_pale_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -298,7 +306,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Rusty Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Rusty Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{rusty_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -329,7 +338,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Angry Rusty Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Angry Rusty Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{angry_rusty_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -365,7 +375,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Snowy Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Snowy Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{snowy_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -396,7 +407,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Angry Snowy Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Angry Snowy Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{angry_snowy_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -432,7 +444,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Spotty Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Spotty Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{spotty_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -463,7 +476,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Angry Spotty Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Angry Spotty Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{angry_spotty_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -499,7 +513,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Striped Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Striped Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{striped_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -530,7 +545,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Angry Striped Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Angry Striped Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{angry_striped_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -566,7 +582,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Woods Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Woods Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{woods_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -597,7 +614,8 @@
                                                                 }
                                                             ]
                                                         },
-                                                        "minecraft:item_name": "\"Angry Woods Wolf Head\""
+                                                        "minecraft:item_name": "{\"text\":\"Angry Woods Wolf Head\", \"color\":\"#ff003c\"}",
+                                                        "minecraft:custom_data": "{angry_woods_wolf:skull}"
                                                     }
                                                 }
                                             ],
@@ -635,7 +653,8 @@
                                                         }
                                                     ]
                                                 },
-                                                "minecraft:item_name": "\"Pale Wolf Head\""
+                                                "minecraft:item_name": "{\"text\":\"Pale Wolf Head\", \"color\":\"#ff003c\"}",
+                                                "minecraft:custom_data": "{pale_wolf:skull}"
                                             }
                                         }
                                     ],
@@ -666,7 +685,8 @@
                                                         }
                                                     ]
                                                 },
-                                                "minecraft:item_name": "\"Angry Pale Wolf Head\""
+                                                "minecraft:item_name": "{\"text\":\"Angry Pale Wolf Head\", \"color\":\"#ff003c\"}",
+                                                "minecraft:custom_data": "{angry_pale_wolf:skull}"
                                             }
                                         }
                                     ]

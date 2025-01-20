@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Endermite Head\""
+                                "minecraft:item_name": "{\"text\":\"Endermite Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{endermite:skull}"
                             }
                         }
                     ]

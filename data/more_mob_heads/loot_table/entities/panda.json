@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Aggressive Panda Head\""
+                                        "minecraft:item_name": "{\"text\":\"Aggressive Panda Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{aggressive_panda:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Lazy Panda Head\""
+                                        "minecraft:item_name": "{\"text\":\"Lazy Panda Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{lazy_panda:skull}"
                                     }
                                 }
                             ],
@@ -83,7 +85,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Playful Panda Head\""
+                                        "minecraft:item_name": "{\"text\":\"Playful Panda Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{playful_panda:skull}"
                                     }
                                 }
                             ],
@@ -113,7 +116,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Worried Panda Head\""
+                                        "minecraft:item_name": "{\"text\":\"Worried Panda Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{worried_panda:skull}"
                                     }
                                 }
                             ],
@@ -143,7 +147,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Brown Panda Head\""
+                                        "minecraft:item_name": "{\"text\":\"Brown Panda Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{brown_panda:skull}"
                                     }
                                 }
                             ],
@@ -173,7 +178,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Weak Panda Head\""
+                                        "minecraft:item_name": "{\"text\":\"Weak Panda Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{weak_panda:skull}"
                                     }
                                 }
                             ],
@@ -203,7 +209,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Panda Head\""
+                                        "minecraft:item_name": "{\"text\":\"Panda Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{panda:skull}"
                                     }
                                 }
                             ]

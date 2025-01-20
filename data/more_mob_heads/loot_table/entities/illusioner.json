@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Illusioner Head\""
+                                "minecraft:item_name": "{\"text\":\"Illusioner Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{illusioner:skull}"
                             }
                         }
                     ]

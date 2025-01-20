@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Hoglin Head\""
+                                "minecraft:item_name": "{\"text\":\"Hoglin Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{hoglin:skull}"
                             }
                         }
                     ]

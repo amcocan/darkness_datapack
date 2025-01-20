@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Spider Head\""
+                                "minecraft:item_name": "{\"text\":\"Spider Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{spider:skull}"
                             }
                         }
                     ]

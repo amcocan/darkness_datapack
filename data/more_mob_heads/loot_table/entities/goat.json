@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Goat Head\""
+                                        "minecraft:item_name": "{\"text\":\"Goat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{goat:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Screaming Goat Head\""
+                                        "minecraft:item_name": "{\"text\":\"Screaming Goat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{screaming_goat:skull}"
                                     }
                                 }
                             ],

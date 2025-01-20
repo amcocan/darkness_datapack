@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Ravager Head\""
+                                "minecraft:item_name": "{\"text\":\"Ravager Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{ravager:skull}"
                             }
                         }
                     ]

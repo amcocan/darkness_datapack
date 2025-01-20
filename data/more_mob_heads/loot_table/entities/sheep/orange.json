@@ -21,7 +21,7 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Orange Sheep Head\""
+                                "minecraft:item_name": "{\"text\":\"Orange Sheep Head\", \"color\":\"#ff003c\"}",            "minecraft:custom_data": "{orange_sheep:skull}"
                             }
                         }
                     ]

@@ -21,7 +21,7 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Pink Sheep Head\""
+                                "minecraft:item_name": "{\"text\":\"Pink Sheep Head\", \"color\":\"#ff003c\"}",            "minecraft:custom_data": "{pink_sheep:skull}"
                             }
                         }
                     ]

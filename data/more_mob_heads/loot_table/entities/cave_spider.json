@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Cave Spider Head\""
+                                "minecraft:item_name": "{\"text\":\"Cave Spider Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{cave_spider:skull}"
                             }
                         }
                     ]

@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Piglin Brute Head\""
+                                "minecraft:item_name": "{\"text\":\"Piglin Brute Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{piglin_brute:skull}"
                             }
                         }
                     ]

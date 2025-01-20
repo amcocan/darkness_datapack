@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Bogged Head\""
+                                "minecraft:item_name": "{\"text\":\"Bogged Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{bogged:skull}"
                             }
                         }
                     ]

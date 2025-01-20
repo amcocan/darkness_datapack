@@ -21,7 +21,7 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Magenta Sheep Head\""
+                                "minecraft:item_name": "{\"text\":\"Magenta Sheep Head\", \"color\":\"#ff003c\"}",            "minecraft:custom_data": "{magenta_sheep:skull}"
                             }
                         }
                     ]

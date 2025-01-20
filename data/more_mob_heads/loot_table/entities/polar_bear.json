@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Polar Bear Head\""
+                                "minecraft:item_name": "{\"text\":\"Polar Bear Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{polar_bear:skull}"
                             }
                         }
                     ]

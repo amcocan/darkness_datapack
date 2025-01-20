@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Iron Golem Head\""
+                                "minecraft:item_name": "{\"text\":\"Iron Golem Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{iron_golem:skull}"
                             }
                         }
                     ]

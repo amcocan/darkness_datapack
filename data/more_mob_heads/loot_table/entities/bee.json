@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Bee Head\""
+                                        "minecraft:item_name": "{\"text\":\"Bee Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{bee:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Pollinated Bee Head\""
+                                        "minecraft:item_name": "{\"text\":\"Pollinated Bee Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{pollinated_bee:skull}"
                                     }
                                 }
                             ],
@@ -83,7 +85,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Angry Bee Head\""
+                                        "minecraft:item_name": "{\"text\":\"Angry Bee Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{angry_bee:skull}"
                                     }
                                 }
                             ],
@@ -113,7 +116,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Angry Pollinated Bee Head\""
+                                        "minecraft:item_name": "{\"text\":\"Angry Pollinated Bee Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{angry_pollinated_bee:skull}"
                                     }
                                 }
                             ],

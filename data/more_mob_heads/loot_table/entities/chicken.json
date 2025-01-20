@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Chicken Head\""
+                                "minecraft:item_name": "{\"text\":\"Chicken Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{chicken:skull}"
                             }
                         }
                     ]

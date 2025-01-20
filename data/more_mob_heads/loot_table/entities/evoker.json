@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Evoker Head\""
+                                "minecraft:item_name": "{\"text\":\"Evoker Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{evoker:skull}"
                             }
                         }
                     ]
