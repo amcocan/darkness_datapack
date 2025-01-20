@@ -21,7 +21,7 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "{\"text\":\"Wither Skeleton Head\", \"color\":\"#ff003c\"}"
+                                "minecraft:item_name": "{\"text\":\"Wither Skeleton Head\", \"color\":\"#ff003c\"}",            "minecraft:custom_data": "{wither_skeleton:skull}"
                             }
                         }
                     ]
