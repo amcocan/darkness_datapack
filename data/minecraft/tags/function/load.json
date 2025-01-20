@@ -23,6 +23,7 @@
         "miniblocks:setup",
         "more_effective_tools:setup",
         "more_mob_heads:setup",
+        "more_mob_heads:loop",
         "mutetags:setup",
         "playerseats:setup",
         "playerseats:loop",
