@@ -1,6 +1,8 @@
 # ======= Pack Info =======
 # Setup team no_alerts to silence extra alerts from pack reload.
-team add author "Is Author"
+team add author {"text":"Author", "color":"#FF003C"}
+team modify author nametagVisibility never
+
 # Add triggers for players to toggle datapack alerts.
 scoreboard objectives add silence_alerts trigger "Silence Alerts"
 scoreboard objectives add enable_alerts trigger "Enable Alerts"
