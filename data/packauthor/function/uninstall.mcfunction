@@ -74,7 +74,7 @@ tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", 
 # Remove all existing teams.
 team remove author
 # Message for removing all objectives.
-tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Removed all scoreboard objectives successfully.", "color":"#ced4da"}]
+tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Removed all teams successfully.", "color":"#ced4da"}]
 # Remove all stored data values from storage.
 data remove storage customizable_armor_stands:pose_storage Pose
 data remove storage customizable_armor_stands:settings as_admin
