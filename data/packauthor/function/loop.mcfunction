@@ -17,13 +17,13 @@ execute as @a[scores={enable_alerts=1..}] run scoreboard players reset @s enable
 scoreboard players enable @a enable_alerts
 
 # ======= Author =======
-# Tag the author.
-execute as amcocan unless entity @s[tag=author] run tag @s add author
-execute as amcocan unless entity @s[tag=!author] run team join author
 # Add the logic of the trigger command.
 execute unless entity @a[scores={author=0}] as @a[tag=author] run tellraw @s {"text":"","color":"#FF003C","extra":[{"selector":"@a[tag=author]"},{"text":" is the author!"}]}
 # Play a sound so that the player knows it ran.
 execute unless entity @a[scores={author=0}] as @a[tag=author] at @s run playsound minecraft:item.lodestone_compass.lock player @s ~ ~ ~
+# Tag the author.
+execute as amcocan unless entity @s[tag=author] run tag @s add author
+execute as amcocan unless entity @s[tag=!author] run team join author
 # Reset and enable the trigger.
 execute unless entity @a[scores={author=0}] as @a[tag=author] run scoreboard players reset @s author
 scoreboard players enable @a[tag=author] author
