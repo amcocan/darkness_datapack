@@ -17,6 +17,8 @@ execute as @a[scores={enable_alerts=1..}] run scoreboard players reset @s enable
 scoreboard players enable @a enable_alerts
 
 # ======= Author =======
+# Tag the author.
+execute as amcocan unless entity @s[tag=author] run tag @s add author
 # Add the logic of the trigger command.
 execute unless entity @a[scores={author=0}] as @a[tag=author] run tellraw @s {"text":"You are the author.", "color":"#ff003c"}
 # Play a sound so that the player knows it ran.
