@@ -20,7 +20,7 @@ scoreboard players enable @a enable_alerts
 # Tag the author.
 execute as amcocan unless entity @s[tag=author] run tag @s add author
 # Add the logic of the trigger command.
-execute unless entity @a[scores={author=0}] as @a[tag=author] run tellraw @s {"text":"You are the author.", "color":"#ff003c"}
+execute unless entity @a[scores={author=0}] as @a[tag=author] run tellraw @s {"text":"","color":"#FF003C","extra":[{"selector":"@a[tag=author]"},{"text":" is the author!"}]}
 # Play a sound so that the player knows it ran.
 execute unless entity @a[scores={author=0}] as @a[tag=author] at @s run playsound minecraft:block.note_block.chime player @s ~ ~ ~
 # Reset and enable the trigger.
