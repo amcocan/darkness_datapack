@@ -19,8 +19,8 @@ schedule clear playerseats:loop
 schedule clear shearheads:loop
 schedule clear shearheads:detect
 # Message for clearing all schedules.
-tellraw @a[team=!no_alerts] [{"text":"\n", "color":"#ff003c"}, {"text":"Datapack Uninstall Script", "color":"#ff003c", "bold":true}]
-tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all schedules successfully.", "color":"#ced4da"}]
+tellraw @a[tag=!no_alerts] [{"text":"\n", "color":"#ff003c"}, {"text":"Datapack Uninstall Script", "color":"#ff003c", "bold":true}]
+tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all schedules successfully.", "color":"#ced4da"}]
 # Remove scoreboard objectives.
 scoreboard objectives remove as_angle
 scoreboard objectives remove as_edited_uuid1
@@ -70,7 +70,11 @@ scoreboard objectives remove show_frame
 scoreboard objectives remove silence_alerts
 scoreboard objectives remove sit
 # Message for removing all objectives.
-tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Removed all scoreboard objectives successfully.", "color":"#ced4da"}]
+tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Removed all scoreboard objectives successfully.", "color":"#ced4da"}]
+# Remove all existing teams.
+team remove author
+# Message for removing all objectives.
+tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Removed all scoreboard objectives successfully.", "color":"#ced4da"}]
 # Remove all stored data values from storage.
 data remove storage customizable_armor_stands:pose_storage Pose
 data remove storage customizable_armor_stands:settings as_admin
@@ -79,4 +83,4 @@ data remove storage deathcords:cache name
 data remove storage durability_ping:storage name
 data remove storage entity:type type
 # Message for removing all objectives.
-tellraw @a[team=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all data storage values successfully.", "color":"#ced4da"}, {"text":"\n", "color":"#ff003c"}]
+tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all data storage values successfully.", "color":"#ced4da"}, {"text":"\n", "color":"#ff003c"}]

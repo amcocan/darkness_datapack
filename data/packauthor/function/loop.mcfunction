@@ -1,6 +1,6 @@
 # ======= Silence Alerts =======
 # Add the logic of the trigger command.
-execute as @a[scores={silence_alerts=1..}] at @s run team join no_alerts @s
+execute as @a[scores={silence_alerts=1..}] run tag @s add no_alerts
 # Play a sound so that the player knows it ran.
 execute at @a[scores={silence_alerts=1..}] run playsound minecraft:particle.soul_escape player @a[scores={silence_alerts=1..}, distance=..30] ~ ~ ~
 # Reset and enable the trigger.
@@ -9,7 +9,7 @@ scoreboard players enable @a silence_alerts
 
 # ======= Enable Alerts =======
 # Add the logic of the trigger command.
-execute as @a[scores={enable_alerts=1..}] at @s run team leave @s
+execute as @a[scores={enable_alerts=1..}] run tag @s remove no_alerts
 # Play a sound so that the player knows it ran.
 execute at @a[scores={enable_alerts=1..}] run playsound minecraft:block.note_block.chime player @a[scores={enable_alerts=1..}, distance=..30] ~ ~ ~
 # Reset and enable the trigger.
