@@ -79,8 +79,11 @@ tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", 
 data remove storage customizable_armor_stands:pose_storage Pose
 data remove storage customizable_armor_stands:settings as_admin
 data remove storage customizable_armor_stands:slot_storage Slot
-data remove storage deathcords:cache name
+data remove storage deathcords:cache info
 data remove storage durability_ping:storage name
 data remove storage entity:type type
 # Message for removing all objectives.
 tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all data storage values successfully.", "color":"#ced4da"}, {"text":"\n", "color":"#ff003c"}]
+
+# Play a sound to know it ran.
+playsound minecraft:block.anvil.destroy master @a ~ ~ ~ 0.2 1 0
