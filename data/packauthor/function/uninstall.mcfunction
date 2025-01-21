@@ -34,6 +34,7 @@ scoreboard objectives remove as_lock_uuid3
 scoreboard objectives remove as_lock_uuid4
 scoreboard objectives remove as_pose
 scoreboard objectives remove as_trigger
+scoreboard objectives remove author
 scoreboard objectives remove clean_up
 scoreboard objectives remove creeper_in_range
 scoreboard objectives remove death_cords

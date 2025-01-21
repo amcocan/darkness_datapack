@@ -4,6 +4,7 @@ team add no_alerts "Silence Alerts"
 # Add triggers for players to toggle datapack alerts.
 scoreboard objectives add silence_alerts trigger "Silence Alerts"
 scoreboard objectives add enable_alerts trigger "Enable Alerts"
+scoreboard objectives add author trigger "amcocan"
 # Make a global sound on reload.
 execute at @e[type=minecraft:player] run playsound minecraft:block.note_block.bell master @a ~ ~ ~ 0.5 0 0.5
 # List the info and author for the datapack on load or reload.
