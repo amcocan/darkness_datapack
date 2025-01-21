@@ -86,4 +86,4 @@ data remove storage entity:type type
 tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all data storage values successfully.", "color":"#ced4da"}, {"text":"\n", "color":"#ff003c"}]
 
 # Play a sound to know it ran.
-playsound minecraft:block.anvil.destroy master @a ~ ~ ~ 0.2 1 0
+playsound minecraft:item.totem.use master @a ~ ~ ~ 0.05 1 0

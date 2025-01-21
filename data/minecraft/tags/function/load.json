@@ -1,7 +1,6 @@
 {
     "values":
     [
-        "packauthor:uninstall",
         "packauthor:setup",
         "packauthor:loop",
         "antigrief:setup",
