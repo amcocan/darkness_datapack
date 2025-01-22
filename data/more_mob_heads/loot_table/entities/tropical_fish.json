@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Tropical Fish Head\""
+                                "minecraft:item_name": "{\"text\":\"Tropical Fish Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{tropical_fish:skull}"
                             }
                         }
                     ]

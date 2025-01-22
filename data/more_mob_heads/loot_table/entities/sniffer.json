@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Sniffer Head\""
+                                "minecraft:item_name": "{\"text\":\"Sniffer Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{sniffer:skull}"
                             }
                         }
                     ]

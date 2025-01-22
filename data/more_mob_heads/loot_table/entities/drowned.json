@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Drowned Head\""
+                                "minecraft:item_name": "{\"text\":\"Drowned Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{drowned:skull}"
                             }
                         }
                     ]

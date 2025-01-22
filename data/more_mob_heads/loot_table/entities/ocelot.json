@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Ocelot Head\""
+                                "minecraft:item_name": "{\"text\":\"Ocelot Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{ocelot:skull}"
                             }
                         }
                     ]

@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Deepslate Copper Ore\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Deepslate Copper Ore\"}",
       "minecraft:rarity": "common"
     }
   }

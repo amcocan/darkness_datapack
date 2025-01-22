@@ -20,7 +20,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Shulker Head\""
+                                "minecraft:item_name": "{\"text\":\"Shulker Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{shulker:skull}"
                             }
                         }
                     ]

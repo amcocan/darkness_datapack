@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Strider Head\""
+                                "minecraft:item_name": "{\"text\":\"Strider Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{strider:skull}"
                             }
                         }
                     ]
@@ -43,7 +44,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Cold Strider Head\""
+                                "minecraft:item_name": "{\"text\":\"Cold Strider Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{cold_strider:skull}"
                             }
                         }
                     ]

@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Armorer Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Armorer Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_armorer_villager:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Butcher Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Butcher Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_butcher_villager:skull}"
                                     }
                                 }
                             ],
@@ -83,7 +85,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Cartographer Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Cartographer Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_cartographer_villager:skull}"
                                     }
                                 }
                             ],
@@ -113,7 +116,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Cleric Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Cleric Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_cleric_villager:skull}"
                                     }
                                 }
                             ],
@@ -143,7 +147,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Farmer Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Farmer Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_farmer_villager:skull}"
                                     }
                                 }
                             ],
@@ -173,7 +178,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Fisherman Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Fisherman Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_fisherman_villager:skull}"
                                     }
                                 }
                             ],
@@ -203,7 +209,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Fletcher Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Fletcher Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_fletcher_villager:skull}"
                                     }
                                 }
                             ],
@@ -233,7 +240,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Leatherworker Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Leatherworker Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_leatherworker_villager:skull}"
                                     }
                                 }
                             ],
@@ -263,7 +271,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Librarian Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Librarian Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_librarian_villager:skull}"
                                     }
                                 }
                             ],
@@ -293,7 +302,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Mason Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Mason Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_mason_villager:skull}"
                                     }
                                 }
                             ],
@@ -323,7 +333,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Nitwit Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Nitwit Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_nitwit_villager:skull}"
                                     }
                                 }
                             ],
@@ -353,7 +364,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Villager Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Villager Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_villager:skull}"
                                     }
                                 }
                             ],
@@ -383,7 +395,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Shepherd Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Shepherd Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_shepherd_villager:skull}"
                                     }
                                 }
                             ],
@@ -413,7 +426,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Toolsmith Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Toolsmith Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_toolsmith_villager:skull}"
                                     }
                                 }
                             ],
@@ -443,7 +457,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Zombie Weaponsmith Head\""
+                                        "minecraft:item_name": "{\"text\":\"Zombie Weaponsmith Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{zombie_weaponsmith_villager:skull}"
                                     }
                                 }
                             ],

@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Glow Squid Head\""
+                                "minecraft:item_name": "{\"text\":\"Glow Squid Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{glow_squid:skull}"
                             }
                         }
                     ]

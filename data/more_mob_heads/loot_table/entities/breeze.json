@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Breeze Head\""
+                                "minecraft:item_name": "{\"text\":\"Breeze Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{breeze:skull}"
                             }
                         }
                     ]

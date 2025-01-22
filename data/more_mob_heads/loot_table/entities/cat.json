@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Tabby Cat Head\""
+                                        "minecraft:item_name": "{\"text\":\"Tabby Cat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{tabby_cat:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Tuxedo Cat Head\""
+                                        "minecraft:item_name": "{\"text\":\"Tuxedo Cat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{tuxedo_cat:skull}"
                                     }
                                 }
                             ],
@@ -83,7 +85,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Ginger Cat Head\""
+                                        "minecraft:item_name": "{\"text\":\"Ginger Cat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{ginger_cat:skull}"
                                     }
                                 }
                             ],
@@ -113,7 +116,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Siamese Cat Head\""
+                                        "minecraft:item_name": "{\"text\":\"Siamese Cat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{siamese_cat:skull}"
                                     }
                                 }
                             ],
@@ -143,7 +147,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"British Shorthair Cat Head\""
+                                        "minecraft:item_name": "{\"text\":\"British Cat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{british_cat:skull}"
                                     }
                                 }
                             ],
@@ -173,7 +178,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Calico Cat Head\""
+                                        "minecraft:item_name": "{\"text\":\"Calico Cat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{calico_cat:skull}"
                                     }
                                 }
                             ],
@@ -203,7 +209,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Persian Cat Head\""
+                                        "minecraft:item_name": "{\"text\":\"Persian Cat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{persian_cat:skull}"
                                     }
                                 }
                             ],
@@ -233,7 +240,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Ragdoll Cat Head\""
+                                        "minecraft:item_name": "{\"text\":\"Ragdoll Cat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{ragdoll_cat:skull}"
                                     }
                                 }
                             ],
@@ -263,7 +271,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"White Cat Head\""
+                                        "minecraft:item_name": "{\"text\":\"White Cat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{white_cat:skull}"
                                     }
                                 }
                             ],
@@ -293,7 +302,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Jellie Cat Head\""
+                                        "minecraft:item_name": "{\"text\":\"Jellie Cat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{jellie_cat:skull}"
                                     }
                                 }
                             ],
@@ -323,7 +333,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Black Cat Head\""
+                                        "minecraft:item_name": "{\"text\":\"Black Cat Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{black_cat:skull}"
                                     }
                                 }
                             ],

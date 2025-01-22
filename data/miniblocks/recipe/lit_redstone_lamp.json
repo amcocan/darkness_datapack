@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Lit Redstone Lamp\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Lit Redstone Lamp\"}",
       "minecraft:rarity": "common"
     }
   }

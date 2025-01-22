@@ -43,10 +43,11 @@ execute as @e[tag=panda] at @s unless entity @s[tag=!hit_by_ray] run loot spawn 
 execute as @e[tag=parrot] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/parrot
 execute as @e[tag=phantom] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/phantom
 execute as @e[tag=pig] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/pig
+execute as @e[tag=piglin] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/piglin
 execute as @e[tag=piglin_brute] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/piglin_brute
 execute as @e[tag=pillager] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/pillager
 execute as @e[tag=player] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot minecraft:blocks/sheared_head
-execute as @e[tag=player] at @s unless entity @e[tag=hit_by_ray] run loot spawn ~ ~ ~ loot minecraft:blocks/sheared_head
+execute as @e[tag=player, nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s unless entity @e[tag=hit_by_ray] run loot spawn ~ ~ ~ loot minecraft:blocks/sheared_head
 execute as @e[tag=polar_bear] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/polar_bear
 execute as @e[tag=pufferfish] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/pufferfish
 execute as @e[tag=rabbit] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/rabbit
@@ -55,7 +56,7 @@ execute as @e[tag=salmon] at @s unless entity @s[tag=!hit_by_ray] run loot spawn
 execute as @e[tag=sheep] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/sheep
 execute as @e[tag=shulker] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/shulker
 execute as @e[tag=silverfish] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/silverfish
-execute as @e[tag=skeleton] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot minecraft:blocks/skeleton_skull
+execute as @e[tag=skeleton] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/skeleton
 execute as @e[tag=skeleton_horse] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/skeleton_horse
 execute as @e[tag=slime] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/slime
 execute as @e[tag=sniffer] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/sniffer
@@ -75,6 +76,8 @@ execute as @e[tag=wandering_trader] at @s unless entity @s[tag=!hit_by_ray] run 
 execute as @e[tag=warden] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/warden
 execute as @e[tag=witch] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/witch
 execute as @e[tag=wither] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/wither
+execute as @e[tag=wither_skeleton] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/wither_skeleton
+execute as @e[tag=wither_skeleton] at @s unless entity @s[tag=!hit_by_ray] run loot give amcocan loot minecraft:blocks/wither_skeleton_skull
 execute as @e[tag=wolf] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/wolf
 execute as @e[tag=zoglin] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/zoglin
 execute as @e[tag=zombie_horse] at @s unless entity @s[tag=!hit_by_ray] run loot spawn ~ ~ ~ loot more_mob_heads:entities/zombie_horse

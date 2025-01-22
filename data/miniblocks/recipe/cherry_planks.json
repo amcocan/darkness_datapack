@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Cherry Planks\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Cherry Planks\"}",
       "minecraft:rarity": "common"
     }
   }

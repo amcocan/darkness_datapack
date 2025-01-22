@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Red Nether Bricks\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Red Nether Bricks\"}",
       "minecraft:rarity": "common"
     }
   }

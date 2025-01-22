@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Silverfish Head\""
+                                "minecraft:item_name": "{\"text\":\"Silverfish Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{silverfish:skull}"
                             }
                         }
                     ]

@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Cow Head\""
+                                "minecraft:item_name": "{\"text\":\"Cow Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{cow:skull}"
                             }
                         }
                     ]

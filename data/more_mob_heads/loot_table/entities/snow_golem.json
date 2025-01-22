@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Snow Golem Head\""
+                                "minecraft:item_name": "{\"text\":\"Snow Golem Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{snow_golem:skull}"
                             }
                         }
                     ]

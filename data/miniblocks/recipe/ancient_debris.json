@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Ancient Debris\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Ancient Debris\"}",
       "minecraft:rarity": "common"
     }
   }

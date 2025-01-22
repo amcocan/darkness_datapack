@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Red Parrot Head\""
+                                        "minecraft:item_name": "{\"text\":\"Red Parrot Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{Red_parrot:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Blue Parrot Head\""
+                                        "minecraft:item_name": "{\"text\":\"Blue Parrot Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{blue_parrot:skull}"
                                     }
                                 }
                             ],
@@ -83,7 +85,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Green Parrot Head\""
+                                        "minecraft:item_name": "{\"text\":\"Green Parrot Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{green_parrot:skull}"
                                     }
                                 }
                             ],
@@ -113,7 +116,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Light Blue Parrot Head\""
+                                        "minecraft:item_name": "{\"text\":\"Light Blue Parrot Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{light_blue_parrot:skull}"
                                     }
                                 }
                             ],
@@ -143,7 +147,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Gray Parrot Head\""
+                                        "minecraft:item_name": "{\"text\":\"Gray Parrot Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{gray_parrot:skull}"
                                     }
                                 }
                             ],

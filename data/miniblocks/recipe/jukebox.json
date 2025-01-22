@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Jukebox\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Jukebox\"}",
       "minecraft:rarity": "common"
     }
   }

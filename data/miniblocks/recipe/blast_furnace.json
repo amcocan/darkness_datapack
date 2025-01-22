@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Blast Furnace\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Blast Furnace\"}",
       "minecraft:rarity": "common"
     }
   }

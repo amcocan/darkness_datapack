@@ -21,7 +21,7 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Warden Head\""
+                                "minecraft:item_name": "{\"text\":\"Warden Head\", \"color\":\"#ff003c\"}",            "minecraft:custom_data": "{warden:skull}"
                             }
                         }
                     ]

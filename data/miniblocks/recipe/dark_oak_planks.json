@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Dark Oak Planks\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Dark Oak Planks\"}",
       "minecraft:rarity": "common"
     }
   }

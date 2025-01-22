@@ -21,7 +21,7 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Purple Sheep Head\""
+                                "minecraft:item_name": "{\"text\":\"Purple Sheep Head\", \"color\":\"#ff003c\"}",            "minecraft:custom_data": "{purple_sheep:skull}"
                             }
                         }
                     ]

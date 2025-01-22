@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Andesite\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Andesite\"}",
       "minecraft:rarity": "common"
     }
   }

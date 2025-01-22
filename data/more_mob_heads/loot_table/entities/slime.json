@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Slime Head\""
+                                "minecraft:item_name": "{\"text\":\"Slime Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{slime:skull}"
                             }
                         }
                     ]

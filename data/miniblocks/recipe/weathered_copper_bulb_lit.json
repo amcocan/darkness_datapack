@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Weathered Copper Bulb (Lit)\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Weathered Copper Bulb Lit\"}",
       "minecraft:rarity": "common"
     }
   }

@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Jungle Planks\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Jungle Planks\"}",
       "minecraft:rarity": "common"
     }
   }

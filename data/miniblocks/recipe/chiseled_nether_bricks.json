@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Chiseled Nether Bricks\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Chiseled Nether Bricks\"}",
       "minecraft:rarity": "common"
     }
   }

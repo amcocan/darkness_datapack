@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Zoglin Head\""
+                                "minecraft:item_name": "{\"text\":\"Zoglin Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{zoglin:skull}"
                             }
                         }
                     ]

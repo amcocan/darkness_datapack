@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Cod Head\""
+                                "minecraft:item_name": "{\"text\":\"Cod Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{cod:skull}"
                             }
                         }
                     ]

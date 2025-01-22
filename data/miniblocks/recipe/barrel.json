@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Barrel\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Barrel\"}",
       "minecraft:rarity": "common"
     }
   }

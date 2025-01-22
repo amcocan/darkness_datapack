@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Elder Guardian Head\""
+                                "minecraft:item_name": "{\"text\":\"Elder Guardian Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{elder_guardian:skull}"
                             }
                         }
                     ]

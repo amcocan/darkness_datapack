@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Ochre Froglight\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Ochre Froglight\"}",
       "minecraft:rarity": "common"
     }
   }

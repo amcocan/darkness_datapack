@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Cherry Log\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Cherry Log\"}",
       "minecraft:rarity": "common"
     }
   }

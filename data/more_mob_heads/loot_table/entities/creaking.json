@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Creaking Head\""
+                                "minecraft:item_name": "{\"text\":\"Creaking Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{creaking:skull}"
                             }
                         }
                     ]

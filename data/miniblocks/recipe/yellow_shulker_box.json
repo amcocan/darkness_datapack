@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "group": "mini_blocks",
+  "ingredient": "minecraft:yellow_shulker_box",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjU3YzNhZjQ3YjYwOWE3YTI1NTI2Y2ZlYWFlNWFjNDRiMWM2YmI3MDgyNzM5MmI0MTcyZDI3MWQyZjU4M2I0OCJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Yellow Shulker Box\"}",
+      "minecraft:rarity": "common"
+    }
+  }
+}

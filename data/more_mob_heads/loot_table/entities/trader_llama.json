@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Creamy Trader Llama Head\""
+                                        "minecraft:item_name": "{\"text\":\"Creamy Trader Llama Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{creamy_trader_llama:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"White Trader Llama Head\""
+                                        "minecraft:item_name": "{\"text\":\"White Trader Llama Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{white_trader_llama:skull}"
                                     }
                                 }
                             ],
@@ -83,7 +85,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Brown Trader Llama Head\""
+                                        "minecraft:item_name": "{\"text\":\"Brown Trader Llama Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{brown_trader_llama:skull}"
                                     }
                                 }
                             ],
@@ -113,7 +116,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Gray Trader Llama Head\""
+                                        "minecraft:item_name": "{\"text\":\"Gray Trader Llama Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{gray_trader_llama:skull}"
                                     }
                                 }
                             ],

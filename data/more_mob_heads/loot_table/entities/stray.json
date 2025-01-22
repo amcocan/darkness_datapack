@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Stray Head\""
+                                "minecraft:item_name": "{\"text\":\"Stray Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{stray:skull}"
                             }
                         }
                     ]

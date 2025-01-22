@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Crying Obsidian\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Crying Obsidian\"}",
       "minecraft:rarity": "common"
     }
   }

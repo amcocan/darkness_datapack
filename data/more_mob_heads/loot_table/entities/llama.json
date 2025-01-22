@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Creamy Llama Head\""
+                                        "minecraft:item_name": "{\"text\":\"Creamy Llama Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{creamy_llama:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"White Llama Head\""
+                                        "minecraft:item_name": "{\"text\":\"White Llama Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{white_llama:skull}"
                                     }
                                 }
                             ],
@@ -83,7 +85,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Brown Llama Head\""
+                                        "minecraft:item_name": "{\"text\":\"Brown Llama Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{brown_llama:skull}"
                                     }
                                 }
                             ],
@@ -113,7 +116,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Gray Llama Head\""
+                                        "minecraft:item_name": "{\"text\":\"Gray Llama Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{gray_llama:skull}"
                                     }
                                 }
                             ],

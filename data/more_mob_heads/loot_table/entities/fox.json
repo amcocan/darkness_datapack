@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Fox Head\""
+                                        "minecraft:item_name": "{\"text\":\"Fox Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{fox:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Snow Fox Head\""
+                                        "minecraft:item_name": "{\"text\":\"Snow Fox Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{snow_fox:skull}"
                                     }
                                 }
                             ],

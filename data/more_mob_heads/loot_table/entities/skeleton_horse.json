@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Skeleton Horse Head\""
+                                "minecraft:item_name": "{\"text\":\"Skeleton Horse Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{skeleton_horse:skull}"
                             }
                         }
                     ]

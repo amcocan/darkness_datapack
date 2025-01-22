@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Deepslate Emerald Ore\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Deepslate Emerald Ore\"}",
       "minecraft:rarity": "common"
     }
   }

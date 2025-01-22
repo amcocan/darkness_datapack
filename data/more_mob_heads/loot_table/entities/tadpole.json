@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Tadpole Head\""
+                                "minecraft:item_name": "{\"text\":\"Tadpole Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{tadpole:skull}"
                             }
                         }
                     ]

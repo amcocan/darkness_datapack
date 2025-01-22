@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Phantom Head\""
+                                "minecraft:item_name": "{\"text\":\"Phantom Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{phantom:skull}"
                             }
                         }
                     ]

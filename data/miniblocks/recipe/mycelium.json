@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Mycelium\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Mycelium\"}",
       "minecraft:rarity": "common"
     }
   }

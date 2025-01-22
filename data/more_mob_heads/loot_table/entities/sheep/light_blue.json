@@ -21,7 +21,7 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Light Blue Sheep Head\""
+                                "minecraft:item_name": "{\"text\":\"Light Blue Sheep Head\", \"color\":\"#ff003c\"}",            "minecraft:custom_data": "{light_blue_sheep:skull}"
                             }
                         }
                     ]

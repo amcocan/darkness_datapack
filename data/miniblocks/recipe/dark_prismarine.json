@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Dark Prismarine\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Dark Prismarine\"}",
       "minecraft:rarity": "common"
     }
   }

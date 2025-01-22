@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Prismarine Brick\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Prismarine Brick\"}",
       "minecraft:rarity": "common"
     }
   }

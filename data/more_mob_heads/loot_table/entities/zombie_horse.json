@@ -21,7 +21,8 @@
                                         }
                                     ]
                                 },
-                                "minecraft:item_name": "\"Zombie Horse Head\""
+                                "minecraft:item_name": "{\"text\":\"Zombie Horse Head\", \"color\":\"#ff003c\"}",
+                                "minecraft:custom_data": "{zombie_horse:skull}"
                             }
                         }
                     ]

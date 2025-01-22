@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Diorite\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Diorite\"}",
       "minecraft:rarity": "common"
     }
   }

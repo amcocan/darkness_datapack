@@ -23,7 +23,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Cold Frog Head\""
+                                        "minecraft:item_name": "{\"text\":\"Cold Frog Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{cold_frog:skull}"
                                     }
                                 }
                             ],
@@ -53,7 +54,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Temperate Frog Head\""
+                                        "minecraft:item_name": "{\"text\":\"Temperate Frog Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{temperate_frog:skull}"
                                     }
                                 }
                             ],
@@ -83,7 +85,8 @@
                                                 }
                                             ]
                                         },
-                                        "minecraft:item_name": "\"Warm Frog Head\""
+                                        "minecraft:item_name": "{\"text\":\"Warm Frog Head\", \"color\":\"#ff003c\"}",
+                                        "minecraft:custom_data": "{warm_frog:skull}"
                                     }
                                 }
                             ],

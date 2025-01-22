@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Birch Log\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Birch Log\"}",
       "minecraft:rarity": "common"
     }
   }

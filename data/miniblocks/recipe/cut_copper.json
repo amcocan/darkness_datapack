@@ -15,7 +15,7 @@
           }
         ]
       },
-      "minecraft:item_name": "\"Mini Cut Copper\"",
+      "minecraft:item_name": "{\"color\":\"#FF003C\",\"text\":\"Mini Cut Copper\"}",
       "minecraft:rarity": "common"
     }
   }
