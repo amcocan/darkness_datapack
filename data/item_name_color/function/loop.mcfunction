@@ -7,4 +7,4 @@ execute as @a[scores={item_color=1..}] run tellraw @s [{"text":"\nItem Name Colo
 execute as @a[scores={item_color=1..}] unless @a[scores={item_color=2..}] run scoreboard players reset @s item_color
 scoreboard players enable @a item_color
 # Loop self.
-# schedule function item_name_color:loop 5t append
+schedule function item_name_color:loop 5t append
