@@ -46,6 +46,7 @@ scoreboard objectives remove duraPing.armor
 scoreboard objectives remove enable_alerts
 scoreboard objectives remove find_frame
 scoreboard objectives remove hide_frame
+scoreboard objectives remove item_color
 scoreboard objectives remove leafDec.dummy
 scoreboard objectives remove leafDec.oakL
 scoreboard objectives remove leafDec.oakS
