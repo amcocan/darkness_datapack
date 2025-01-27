@@ -21,7 +21,7 @@
         "invframe:setup",
         "invframe:loop",
         "item_name_color:setup",
-        "item_name_color:loop",
+        "item_name_color:color",
         "miniblocks:setup",
         "more_effective_tools:setup",
         "more_mob_heads:setup",
