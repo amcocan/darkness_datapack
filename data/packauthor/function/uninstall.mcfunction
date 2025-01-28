@@ -14,7 +14,9 @@ schedule clear deathcords:loop
 schedule clear durability_ping:tick
 schedule clear durability_ping:schedule
 schedule clear fast_leaf_decay:tick
+schedule clear god_gear:loop
 schedule clear invframe:loop
+schedule clear item_name_color:loop
 schedule clear playerseats:loop
 schedule clear shearheads:loop
 schedule clear shearheads:detect
@@ -22,6 +24,7 @@ schedule clear shearheads:detect
 tellraw @a[tag=!no_alerts] [{"text":"\n", "color":"#ff003c"}, {"text":"Datapack Uninstall Script", "color":"#ff003c", "bold":true}]
 tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all schedules successfully.", "color":"#ced4da"}]
 # Remove scoreboard objectives.
+scoreboard objectives remove anvil_check
 scoreboard objectives remove as_angle
 scoreboard objectives remove as_edited_uuid1
 scoreboard objectives remove as_edited_uuid2
@@ -46,6 +49,7 @@ scoreboard objectives remove duraPing.armor
 scoreboard objectives remove enable_alerts
 scoreboard objectives remove find_frame
 scoreboard objectives remove hide_frame
+scoreboard objectives remove item_color
 scoreboard objectives remove leafDec.dummy
 scoreboard objectives remove leafDec.oakL
 scoreboard objectives remove leafDec.oakS
