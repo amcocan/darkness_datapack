@@ -1,6 +1,6 @@
 # ======= God Gear =======
 # Apply the modified repair cost.
-execute as @a[scores={anvil_check=1..}] run item modify entity @s player.cursor  god_gear:repair_cost
+execute as @a[scores={anvil_check=1..}] run item modify entity @s player.cursor god_gear:repair_cost
 execute as @a[scores={anvil_check=1..}] run item modify entity @s weapon.offhand god_gear:repair_cost
 execute as @a[scores={anvil_check=1..}] run item modify entity @s armor.head god_gear:repair_cost
 execute as @a[scores={anvil_check=1..}] run item modify entity @s armor.body god_gear:repair_cost
