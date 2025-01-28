@@ -18,6 +18,8 @@
         "extrashell:setup",
         "fast_leaf_decay:load",
         "fast_leaf_decay:tick",
+        "god_gear:setup",
+        "god_gear:loop",
         "invframe:setup",
         "invframe:loop",
         "item_name_color:setup",
