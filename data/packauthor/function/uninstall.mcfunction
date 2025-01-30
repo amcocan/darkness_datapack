@@ -24,6 +24,7 @@ schedule clear shearheads:detect
 tellraw @a[tag=!no_alerts] [{"text":"\n", "color":"#ff003c"}, {"text":"Datapack Uninstall Script", "color":"#ff003c", "bold":true}]
 tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all schedules successfully.", "color":"#ced4da"}]
 # Remove scoreboard objectives.
+scoreboard objectives remove antigrief_disabled
 scoreboard objectives remove anvil_check
 scoreboard objectives remove as_angle
 scoreboard objectives remove as_edited_uuid1

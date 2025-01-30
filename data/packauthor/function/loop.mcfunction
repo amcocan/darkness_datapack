@@ -1,3 +1,14 @@
+# ======= Manager =======
+# Call the manager function.
+execute as @a[scores={manager=1..}] run function packauthor:manager
+# Play a sound so that the player knows it ran.
+execute at @a[scores={manager=1..}] run playsound minecraft:entity.endermite.ambient player @a[scores={manager=1..}] ~ ~ ~
+# Reset and enable the trigger.
+execute as @a[scores={manager=1..}] run scoreboard players reset @s manager
+scoreboard players remove @a[nbt={playerGameType:0}] manager
+scoreboard players enable @a[nbt={playerGameType:1}] manager
+scoreboard players remove @a[nbt={playerGameType:2}] manager
+
 # ======= Silence Alerts =======
 # Add the logic of the trigger command.
 execute as @a[scores={silence_alerts=1..}] run tag @s add no_alerts
