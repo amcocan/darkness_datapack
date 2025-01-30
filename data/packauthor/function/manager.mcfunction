@@ -79,7 +79,7 @@ execute if score #shearheads_global shearheads_disabled matches 1 run tellraw @s
 tellraw @s [{"text":"", "color":"#ced4da", "bold":false}]
 
 # Tip on clearing your chat.
-tellraw @s [{"text":" | ","color":"#ff003c"},{"text":"Info: ","color":"#868e96"},{"text":"Hide this message.", "hoverEvent":{"action":"show_text", "contents":{"text":"Use \'F3+D\' to clear your chat.", "color":"#ff003c"}}, "color":"#ced4da"}]
+tellraw @s [{"text":"| ","color":"#ff003c"},{"text":"Info: ","color":"#868e96"},{"text":"Hide this message.", "hoverEvent":{"action":"show_text", "contents":{"text":"Use \'F3+D\' to clear your chat.", "color":"#ff003c"}}, "color":"#ced4da"}]
 
 # Blank line for padding.
 tellraw @s [{"text":"", "color":"#ced4da", "bold":false}]
