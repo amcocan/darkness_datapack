@@ -11,6 +11,6 @@
     ]
   ],
   "rewards": {
-    "function": "armor_statues:enable"
+    "function": "armor_statues:enabled"
   }
 }
