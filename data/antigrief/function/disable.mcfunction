@@ -1,2 +1,16 @@
-scoreboard players set #antigrief_global antigrief_disabled 1
+# Set status.
+scoreboard players set #manager_global antigrief_disabled 1
+
+# Uninstall module.
+# 
+# Clear schedules.
+schedule clear antigrief:loop
+
+# Remove scoreboard objectives.
+scoreboard objectives remove creeper_in_range
+
+# Call manager to reflect change.
 function packauthor:manager
+
+# Give additional info for uninstall.
+tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"Info: ", "color":"#868e96"}, {"text":"To disable this feature, remove the file", "color":"#ced4da"}, {"text":"\n", "color":"#ced4da"}, {"text":"| ", "color":"#ff003c"}, {"text":"\'./data/minecraft/tags/block/enderman_holdable.json\'", "color":"light_purple"}]
