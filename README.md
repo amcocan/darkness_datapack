@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="100" src="https://github.com/amcocan/darkness_datapack/blob/main/pack.png" alt="Darkness Datapack Logo">
+    <img width="200" src="./pack.png" alt="Darkness Datapack Logo">
 </p>
 
 <h1 align="center">Darkness Datapack</h1>
