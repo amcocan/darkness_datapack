@@ -1,23 +1,9 @@
 {
     "values":
     [
+        "packauthor:init",
         "packauthor:setup",
-        "packauthor:loop",
-        "antigrief:setup",
-        "antigrief:loop",
-        "armor_statues:load",
-		"armor_statues:tick",
-		"armor_statues:second",
-        "cleanup:setup",
-        "cleanup:loop",
-        "deathcords:setup",
-        "deathcords:loop",
-        "durability_ping:load",
-        "durability_ping:tick",
-        "durability_ping:schedule",
-        "extrashell:setup",
-        "fast_leaf_decay:load",
-        "fast_leaf_decay:tick",
+        
         "god_gear:setup",
         "god_gear:loop",
         "invframe:setup",

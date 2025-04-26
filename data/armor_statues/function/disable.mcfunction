@@ -1,8 +1,6 @@
 # Set status.
-scoreboard players set #armor_statues_global armor_statues_disabled 1
+scoreboard players set #manager_global armor_statues_disabled 1
 
-# Uninstall module.
-# 
 # Clear schedules.
 schedule clear armor_statues:load
 schedule clear armor_statues:tick
