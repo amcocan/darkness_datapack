@@ -1,11 +1,6 @@
 # Set status.
 scoreboard players set #manager_global antigrief_disabled 1
 
-<<<<<<< HEAD
-=======
-# Uninstall module.
-# 
->>>>>>> 5a524d4066985a6e69b12ac7ebc260088b240327
 # Clear schedules.
 schedule clear antigrief:loop
 
