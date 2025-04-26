@@ -1,3 +1,6 @@
+# Create scoreboard objective for module toggle.
+scoreboard objectives add fast_decay_disabled dummy "Fast Leaf Decay Module Toggle"
+# Default Setup
 scoreboard objectives add leafDec.dummy dummy
 scoreboard objectives add leafDec.oakL minecraft.mined:minecraft.oak_log
 scoreboard objectives add leafDec.oakS minecraft.mined:minecraft.oak_leaves
