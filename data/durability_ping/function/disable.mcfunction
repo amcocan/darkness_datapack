@@ -13,5 +13,8 @@ scoreboard objectives remove duraPing.weapon
 scoreboard objectives remove duraPing.armor
 scoreboard objectives remove duraPing
 
+# Remove all stored data values from storage.
+data remove storage durability_ping:storage name
+
 # Call manager to reflect change.
 function packauthor:manager

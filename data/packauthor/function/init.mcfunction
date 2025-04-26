@@ -8,8 +8,8 @@ function deathcords:enable
 function durability_ping:enable
 function extrashell:enable
 function fast_leaf_decay:enable
-# function god_gear:enable
-# function invframe:enable
+function god_gear:enable
+function invframe:enable
 # # function item_name_color:enable
 # function miniblocks:enable
 # function more_effective_tools:enable

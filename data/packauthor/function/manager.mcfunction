@@ -63,15 +63,15 @@ tellraw @s [{"text":"", "color":"#ced4da", "bold":false}]
 execute unless score #manager_global god_gear_disabled matches 1 run tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"Module: ", "color":"#868e96"}, {"text":"God Gear", "color":"#ced4da"}, {"text":"\n| ", "color":"#ff003c"}, {"text":"Status: ", "color":"#868e96"}, {"text":"Enabled", "color":"green"}, {"text":" | ","color":"#868e96"},{"text":"Disabled", "clickEvent":{"action":"run_command", "value":"/function god_gear:disable"}, "hoverEvent":{"action":"show_text","contents":{"text":"Disable Module", "color":"#ff003c"}}, "color":"#ced4da"}]
 execute if score #manager_global god_gear_disabled matches 1 run tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"Module: ", "color":"#868e96"}, {"text":"God Gear", "color":"#ced4da"}, {"text":"\n| ", "color":"#ff003c"}, {"text":"Status: ", "color":"#868e96"}, {"text":"Enabled", "clickEvent":{"action":"run_command", "value":"/function god_gear:enable"}, "hoverEvent":{"action":"show_text","contents":{"text":"Enable Module", "color":"green"}}, "color":"#ced4da"}, {"text":" | ","color":"#868e96"},{"text":"Disabled", "color":"#ff003c"}]
 
-# # Blank line for padding.
-# tellraw @s [{"text":"", "color":"#ced4da", "bold":false}]
+# Blank line for padding.
+tellraw @s [{"text":"", "color":"#ced4da", "bold":false}]
 
-# # Invis Item Frames Module Toggle
-# execute unless score #manager_global invframes_disabled matches 1 run tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"Module: ", "color":"#868e96"}, {"text":"Invis Item Frames", "color":"#ced4da"}, {"text":"\n| ", "color":"#ff003c"}, {"text":"Status: ", "color":"#868e96"}, {"text":"Enabled", "color":"green"}, {"text":" | ","color":"#868e96"},{"text":"Disabled", "clickEvent":{"action":"run_command", "value":"/function invframe:disable"}, "hoverEvent":{"action":"show_text","contents":{"text":"Disable Module", "color":"#ff003c"}}, "color":"#ced4da"}]
-# execute if score #manager_global invframes_disabled matches 1 run tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"Module: ", "color":"#868e96"}, {"text":"Invis Item Frames", "color":"#ced4da"}, {"text":"\n| ", "color":"#ff003c"}, {"text":"Status: ", "color":"#868e96"}, {"text":"Enabled", "clickEvent":{"action":"run_command", "value":"/function invframe:enable"}, "hoverEvent":{"action":"show_text","contents":{"text":"Enable Module", "color":"green"}}, "color":"#ced4da"}, {"text":" | ","color":"#868e96"},{"text":"Disabled", "color":"#ff003c"}]
+# Invis Item Frames Module Toggle
+execute unless score #manager_global invframes_disabled matches 1 run tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"Module: ", "color":"#868e96"}, {"text":"Invis Item Frames", "color":"#ced4da"}, {"text":"\n| ", "color":"#ff003c"}, {"text":"Status: ", "color":"#868e96"}, {"text":"Enabled", "color":"green"}, {"text":" | ","color":"#868e96"},{"text":"Disabled", "clickEvent":{"action":"run_command", "value":"/function invframe:disable"}, "hoverEvent":{"action":"show_text","contents":{"text":"Disable Module", "color":"#ff003c"}}, "color":"#ced4da"}]
+execute if score #manager_global invframes_disabled matches 1 run tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"Module: ", "color":"#868e96"}, {"text":"Invis Item Frames", "color":"#ced4da"}, {"text":"\n| ", "color":"#ff003c"}, {"text":"Status: ", "color":"#868e96"}, {"text":"Enabled", "clickEvent":{"action":"run_command", "value":"/function invframe:enable"}, "hoverEvent":{"action":"show_text","contents":{"text":"Enable Module", "color":"green"}}, "color":"#ced4da"}, {"text":" | ","color":"#868e96"},{"text":"Disabled", "color":"#ff003c"}]
 
-# # Blank line for padding.
-# tellraw @s [{"text":"", "color":"#ced4da", "bold":false}]
+# Blank line for padding.
+tellraw @s [{"text":"", "color":"#ced4da", "bold":false}]
 
 # # Item Color Module Toggle
 # execute unless score #manager_global item_color_disabled matches 1 run tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"Module: ", "color":"#868e96"}, {"text":"Item Color", "color":"#ced4da"}, {"text":"\n| ", "color":"#ff003c"}, {"text":"Status: ", "color":"#868e96"}, {"text":"Enabled", "color":"green"}, {"text":" | ","color":"#868e96"},{"text":"Disabled", "clickEvent":{"action":"run_command", "value":"/function item_name_color:disable"}, "hoverEvent":{"action":"show_text","contents":{"text":"Disable Module", "color":"#ff003c"}}, "color":"#ced4da"}]
