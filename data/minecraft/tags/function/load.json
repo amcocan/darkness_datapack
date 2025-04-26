@@ -2,7 +2,6 @@
     "values":
     [
         "packauthor:init",
-        
         "god_gear:setup",
         "god_gear:loop",
         "invframe:setup",
