@@ -1,4 +1,6 @@
 # ======= Initialize All Functions =======
+# Call uninstall function
+function packauthor:uninstall
 # Call enable functions
 function packauthor:setup
 function antigrief:enable
