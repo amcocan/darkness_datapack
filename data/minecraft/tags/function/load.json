@@ -1,21 +1,6 @@
 {
     "values":
     [
-        "packauthor:init",
-        "god_gear:setup",
-        "god_gear:loop",
-        "invframe:setup",
-        "invframe:loop",
-        "miniblocks:setup",
-        "more_effective_tools:setup",
-        "more_mob_heads:setup",
-        "mutetags:setup",
-        "playerseats:setup",
-        "playerseats:loop",
-        "shearheads:setup",
-        "shearheads:detect",
-        "shearheads:loop",
-        "shearheads:loot",
-        "shearheads:raycast"
+        "packauthor:init"
     ]
 }
