@@ -33,5 +33,27 @@ data remove storage entity:type type
 # Message for removing all objectives.
 tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Cleared all data storage values successfully.", "color":"#ced4da"}, {"text":"\n", "color":"#ff003c"}]
 
+
+# ======= Uninstall All Functions =======
+# Call disable functions
+# function packauthor:setup
+function antigrief:disable
+function armor_statues:disable
+function cleanup:disable
+function deathcords:disable
+function durability_ping:disable
+function extrashell:disable
+function fast_leaf_decay:disable
+function god_gear:disable
+function invframe:disable
+# function item_name_color:enable
+# function miniblocks:disable
+# function more_effective_tools:disable
+# function more_mob_heads:disable
+# function mutetags:disable
+# function orb_merger:disable
+# function playerseats:disable
+# function shearheads:disable
+
 # Play a sound to know it ran.
 playsound minecraft:item.totem.use master @a ~ ~ ~ 0.05 1 0
