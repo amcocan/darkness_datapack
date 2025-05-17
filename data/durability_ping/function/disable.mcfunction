@@ -6,12 +6,11 @@ schedule clear durability_ping:tick
 schedule clear durability_ping:schedule
 
 # Remove scoreboard objectives.
+scoreboard objectives remove duraPing
+scoreboard objectives remove duraPing.armor
 scoreboard objectives remove duraPing.config
 scoreboard objectives remove duraPing.dummy
-scoreboard objectives remove duraPing trigger
 scoreboard objectives remove duraPing.weapon
-scoreboard objectives remove duraPing.armor
-# scoreboard objectives remove duraPing
 
 # Revoke all related advancements.
 advancement revoke @a only durability_ping:damage/turtle_helmet

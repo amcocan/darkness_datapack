@@ -1,7 +1,6 @@
 {
     "values":
     [
-        "packauthor:init",
-        "durability_ping:stop"
+        "packauthor:init"
     ]
 }
