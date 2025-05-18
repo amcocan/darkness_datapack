@@ -24,4 +24,4 @@ data remove storage customizable_armor_stands:settings as_admin
 data remove storage customizable_armor_stands:slot_storage Slot
 
 # Call manager to reflect change.
-function packauthor:manager
+execute unless @a[scores={uninstall=1..}] run function packauthor:manager

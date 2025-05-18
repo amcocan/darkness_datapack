@@ -11,4 +11,4 @@ scoreboard objectives remove death_cords
 data remove storage deathcords:cache info
 
 # Call manager to reflect change.
-function packauthor:manager
+execute unless @a[scores={uninstall=1..}] run function packauthor:manager

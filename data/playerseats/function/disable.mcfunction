@@ -11,4 +11,4 @@ scoreboard objectives remove sit
 kill @e[tag=playerseats]
 
 # Call manager to reflect change.
-function packauthor:manager
+execute unless @a[scores={uninstall=1..}] run function packauthor:manager
