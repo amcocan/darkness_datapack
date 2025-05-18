@@ -1,7 +1,4 @@
 # ======= Uninstall =======
-# Clear schedules.
-schedule clear packauthor:loop
-
 # Remove packauthor scoreboard objectives.
 scoreboard objectives remove author
 scoreboard objectives remove enable_alerts

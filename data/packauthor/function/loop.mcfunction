@@ -10,6 +10,8 @@ scoreboard players enable @a[nbt={playerGameType:1}] manager
 scoreboard players reset @a[nbt={playerGameType:2}] manager
 
 # ======= Uninstall =======
+# Clear schedules.
+execute as @a[scores={uninstall=1..}] run schedule clear packauthor:loop
 # Call the uninstall function.
 execute as @a[scores={uninstall=1..}] run function packauthor:uninstall
 # Play a sound so that the player knows it ran.
