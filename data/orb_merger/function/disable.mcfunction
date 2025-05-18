@@ -1,11 +1,11 @@
 # Set status.
-scoreboard players set #manager_global mutetags_disabled 1
+scoreboard players set #manager_global orb_merger_disabled 1
 
 # Clear schedules.
 # -- Nothing to clear! --
 
 # Remove scoreboard objectives.
-# -- Nothing to Remove! --
+scoreboard objectives remove value_xp_orb
 
 # Call manager to reflect change.
 function packauthor:manager

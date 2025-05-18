@@ -16,6 +16,6 @@ function miniblocks:enable
 function more_effective_tools:enable
 function more_mob_heads:enable
 function mutetags:enable
-# function orb_merger:enable
+function orb_merger:enable
 function playerseats:enable
 function shearheads:enable

@@ -25,6 +25,6 @@ function miniblocks:disable
 function more_effective_tools:disable
 function more_mob_heads:disable
 function mutetags:disable
-# function orb_merger:disable
+function orb_merger:disable
 function playerseats:disable
 function shearheads:disable
