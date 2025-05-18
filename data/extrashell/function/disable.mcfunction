@@ -11,4 +11,4 @@ scoreboard players set #manager_global extrashell_disabled 1
 function packauthor:manager
 
 # Give additional info for uninstall.
-tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"Info: ", "color":"#868e96"}, {"text":"To disable this feature, remove the following directory:", "color":"#ced4da"}, {"text":"\n", "color":"#ced4da"}, {"text":"| ", "color":"#ff003c"}, {"text":"\'./data/extrashell\'", "color":"light_green"}]
+tellraw @s [{"text":"| ", "color":"#ff003c"}, {"text":"Info: ", "color":"#868e96"}, {"text":"To disable this feature, remove the following directory:", "color":"#ced4da"}, {"text":"\n", "color":"#ced4da"}, {"text":"| ", "color":"#ff003c"}, {"text":"\'./data/extrashell\'", "color":"#00ff6f"}]
