@@ -1,3 +1,6 @@
+# Create scoreboard objective for module toggle.
+scoreboard objectives add duraping_disabled dummy "Durability Ping Module Toggle"
+# Default Setup Here
 scoreboard objectives add duraPing.config dummy "Durability Ping Config"
 scoreboard objectives add duraPing.dummy dummy
 scoreboard objectives add duraPing trigger "Durability Ping"

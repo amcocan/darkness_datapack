@@ -1,40 +1,6 @@
 {
     "values":
     [
-        "packauthor:setup",
-        "packauthor:loop",
-        "antigrief:setup",
-        "antigrief:loop",
-        "armor_statues:load",
-		"armor_statues:tick",
-		"armor_statues:second",
-        "cleanup:setup",
-        "cleanup:loop",
-        "deathcords:setup",
-        "deathcords:loop",
-        "durability_ping:load",
-        "durability_ping:tick",
-        "durability_ping:schedule",
-        "extrashell:setup",
-        "fast_leaf_decay:load",
-        "fast_leaf_decay:tick",
-        "god_gear:setup",
-        "god_gear:loop",
-        "invframe:setup",
-        "invframe:loop",
-        "item_name_color:setup",
-        "item_name_color:loop",
-        "item_name_color:color",
-        "miniblocks:setup",
-        "more_effective_tools:setup",
-        "more_mob_heads:setup",
-        "mutetags:setup",
-        "playerseats:setup",
-        "playerseats:loop",
-        "shearheads:setup",
-        "shearheads:detect",
-        "shearheads:loop",
-        "shearheads:loot",
-        "shearheads:raycast"
+        "packauthor:init"
     ]
 }

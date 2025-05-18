@@ -3,6 +3,8 @@
 # Called by:	#main:init
 # Entity @s:	None
 #
+# Create scoreboard objective for module toggle.
+scoreboard objectives add armor_statues_disabled dummy "Armor Statues Module Toggle"
 # Create scoreboards
 scoreboard objectives add as_trigger trigger
 scoreboard objectives add as_pose dummy
