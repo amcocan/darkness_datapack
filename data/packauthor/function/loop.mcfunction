@@ -16,7 +16,6 @@ execute as @a[scores={uninstall=1..}] run function packauthor:uninstall
 execute at @a[scores={uninstall=1..}] run playsound minecraft:item.totem.use player @a[scores={uninstall=1..}] ~ ~ ~ 0.05 1 0
 # Remove the last scoreboard objectives.
 execute as @a[scores={uninstall=1..}] run scoreboard objectives remove manager
-execute as @a[scores={uninstall=1..}] run scoreboard objectives remove uninstall
 # Message for uninstalling.
 execute as @a[scores={uninstall=1..}] run tellraw @a[tag=!no_alerts] [{"text":"\n", "color":"#ff003c"}, {"text":"Datapack Uninstall Script", "color":"#ff003c", "bold":true}]
 execute as @a[scores={uninstall=1..}] run tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Uninstalled all modules successfully.", "color":"#ced4da"}]
