@@ -9,6 +9,20 @@ scoreboard players reset @a[nbt={playerGameType:0}] manager
 scoreboard players enable @a[nbt={playerGameType:1}] manager
 scoreboard players reset @a[nbt={playerGameType:2}] manager
 
+# ======= Uninstall =======
+# Call the uninstall function.
+execute as @a[scores={uninstall=1..}] run function packauthor:uninstall
+# Play a sound so that the player knows it ran.
+execute at @a[scores={uninstall=1..}] run playsound minecraft:item.totem.use player @a[scores={uninstall=1..}] ~ ~ ~ 0.05 1 0
+# Reset and enable the trigger.
+execute as @a[scores={uninstall=1..}] run scoreboard players reset @s uninstall
+scoreboard players reset @a[nbt={playerGameType:0}] uninstall
+scoreboard players enable @a[nbt={playerGameType:1}] uninstall
+scoreboard players reset @a[nbt={playerGameType:2}] uninstall
+# Message for clearing all schedules.
+execute as @a[scores={uninstall=1..}] run tellraw @a[tag=!no_alerts] [{"text":"\n", "color":"#ff003c"}, {"text":"Datapack Uninstall Script", "color":"#ff003c", "bold":true}]
+execute as @a[scores={uninstall=1..}] run tellraw @a[tag=!no_alerts] [{"text":"| ", "color":"#ff003c"}, {"text":"Task: ", "color":"#868e96"}, {"text":"Uninstalled all modules successfully.", "color":"#ced4da"}]
+
 # ======= Silence Alerts =======
 # Add the logic of the trigger command.
 execute as @a[scores={silence_alerts=1..}] run tag @s add no_alerts

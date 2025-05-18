@@ -6,6 +6,9 @@ team modify author nametagVisibility never
 # Setup the scoreboard objective of type trigger for manager.
 scoreboard objectives add manager trigger "Manager"
 
+# Setup the scoreboard objective of type trigger for uninstall.
+scoreboard objectives add uninstall trigger "Uninstall"
+
 # Add triggers for players to toggle datapack alerts.
 scoreboard objectives add silence_alerts trigger "Silence Alerts"
 scoreboard objectives add enable_alerts trigger "Enable Alerts"
