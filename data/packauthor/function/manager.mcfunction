@@ -5,7 +5,7 @@
 execute unless @a[scores={uninstall=1..}] run tellraw @s [{"text":"", "color":"#ced4da", "bold":false}]
 
 # Loaded Modules Manager Header
-execute unless @a[scores={uninstall=1..}] run tellraw @s [{"text":"Module Manager", "color":"#ff003c", "bold":true}]
+tellraw @s [{"text":"Module Manager", "color":"#ff003c", "bold":true}]
 
 # Blank line for padding.
 execute unless @a[scores={uninstall=1..}] run tellraw @s [{"text":"", "color":"#ced4da", "bold":false}]
