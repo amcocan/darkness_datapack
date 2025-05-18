@@ -83,4 +83,4 @@ advancement revoke @a only durability_ping:damage/crossbow
 data remove storage durability_ping:storage name
 
 # Call manager to reflect change.
-execute unless @a[scores={uninstall=1..}] run function packauthor:manager
+function packauthor:manager

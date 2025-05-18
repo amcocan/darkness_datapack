@@ -8,4 +8,4 @@ schedule clear cleanup:loop
 scoreboard objectives remove clean_up
 
 # Call manager to reflect change.
-execute unless @a[scores={uninstall=1..}] run function packauthor:manager
+function packauthor:manager

@@ -12,4 +12,4 @@ scoreboard objectives remove raycast_length
 data remove storage entity:type type
 
 # Call manager to reflect change.
-execute unless @a[scores={uninstall=1..}] run function packauthor:manager
+function packauthor:manager
