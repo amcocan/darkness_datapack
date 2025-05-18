@@ -1,4 +1,7 @@
 # ======= Uninstall =======
+# Clear schedules.
+execute as @a[scores={uninstall=1..}] run schedule clear packauthor:loop
+
 # Remove packauthor scoreboard objectives.
 scoreboard objectives remove author
 scoreboard objectives remove enable_alerts
