@@ -26,7 +26,7 @@ execute as @e[type=minecraft:interaction,nbt={interaction:{}},tag=ReaperField] r
 # Kill existing ReaperFields.
 kill @e[tag=ReaperField]
 # Summon new ReaperField positioned inside player cammera .
-execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s unless entity @e[tag=ReaperField] positioned as @s run summon minecraft:interaction ~ ~1.62 ~ {Tags:["ReaperField"], width:0.000001f,height:0.000001f,response:1b}
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{god_reaper:1}}}}] at @s unless entity @e[tag=ReaperField] positioned as @s run summon minecraft:interaction ~ ~1.62 ~ {Tags:["ReaperField"], width:0.00001f,height:0.00001f,response:1b}
 # Clear hit_by_ray tag.
 execute as @e[tag=hit_by_ray] run tag @s remove hit_by_ray
 
