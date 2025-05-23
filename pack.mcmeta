@@ -1,11 +1,10 @@
 {
     "pack":
     {
-        "pack_format": 57,
-        "supported_formats":
+        "pack_format":
         {
             "min_inclusive": 57,
-            "max_inclusive": 999999
+            "max_inclusive": 9999
         },
         "description":
         [
@@ -23,7 +22,11 @@
         [
             {
                 "directory": "MJE 1.21.5",
-                "formats": [71]
+                "formats": 
+                {
+                    "min_inclusive": 71,
+                    "max_inclusive": 9999
+                }
             }
         ]
     }
