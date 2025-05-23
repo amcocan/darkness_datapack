@@ -23,8 +23,8 @@
                                 },
                                 "minecraft:item_name": 
                                 {
-                                    "text":"Allay Head",
-                                    "color":"#ff003c"
+                                    text:"Allay Head",
+                                    color:"#ff003c"
                                 },
                                 "minecraft:custom_data": "{allay:skull}"
                             }
