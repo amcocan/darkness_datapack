@@ -21,7 +21,10 @@
     {
         "entries":
         [
-            {}
+            {
+                "directory": "MJE 1.21.5",
+                "formats": [71]
+            }
         ]
     }
 }

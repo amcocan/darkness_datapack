@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "custom",
+    "ingredients": [
+        "minecraft:armor_stand",
+        "minecraft:written_book",
+        "minecraft:shears"
+    ],
+    "result": {
+        "id": "minecraft:shears",
+        "count": 1,
+        "components": {
+            "minecraft:unbreakable": {
+                "show_in_tooltip": false
+            },
+            "minecraft:item_name": "{text:"God Reaper", color:"#ff003c"}",
+            "minecraft:lore": [
+                "[{text:"Lore: ", color:"#868e96", italic:false}, {text:"This item is rumored to remove the head of any mob or player entity.", color:"#ced4da", italic:false}]"
+            ],
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model": "shadowtools:god_reaper",
+            "minecraft:rarity": "epic",
+            "minecraft:hide_additional_tooltip": {},
+            "minecraft:custom_data": "{god_reaper:1}"
+        }
+    }
+}
